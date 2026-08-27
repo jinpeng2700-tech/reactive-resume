@@ -1,0 +1,256 @@
+import type { HTMLElement, Node } from "node-html-parser";
+import { NodeType, parse } from "node-html-parser";
+import { isDarkColor } from "@reactive-resume/utils/color";
+import { getRichTextSemanticKind, getRichTextSemanticNodeKey } from "../../semantic/rich-text-keys";
+
+export const richTextMarkClassName = "rr-pdf-mark";
+export const richTextSemanticNodeKeyAttribute = "data-resume-semantic-node-key";
+
+const inlineTags = new Set([
+	"a",
+	"abbr",
+	"b",
+	"br",
+	"button",
+	"cite",
+	"code",
+	"dfn",
+	"em",
+	"i",
+	"label",
+	"q",
+	"s",
+	"span",
+	"strong",
+	"sub",
+	"sup",
+	"u",
+]);
+
+const getTagName = (node: Node) => node.rawTagName.toLowerCase();
+
+const hasBlockDescendant = (node: Node): boolean =>
+	node.childNodes.some((child) => child.nodeType === NodeType.ELEMENT_NODE && !isInlineNode(child));
+
+const mergeClassNames = (...classNames: (string | undefined)[]): string => {
+	const uniqueClassNames = new Set<string>();
+
+	for (const className of classNames) {
+		if (!className) continue;
+
+		for (const part of className.split(/\s+/)) {
+			if (part) uniqueClassNames.add(part);
+		}
+	}
+
+	return [...uniqueClassNames].join(" ");
+};
+
+const normalizeMarkElements = (root: ReturnType<typeof parse>) => {
+	for (const mark of root.querySelectorAll("mark")) {
+		const dataColor = mark.getAttribute("data-color");
+
+		mark.tagName = "span";
+		mark.setAttribute("class", mergeClassNames(mark.getAttribute("class"), richTextMarkClassName));
+
+		// Preserve custom highlight color as inline background-color for react-pdf-html.
+		// Legacy marks without data-color fall back to the .rr-pdf-mark stylesheet (yellow).
+		if (dataColor) {
+			const existingStyle = mark.getAttribute("style") ?? "";
+			let inlineStyle = `background-color: ${dataColor}`;
+			if (isDarkColor(dataColor)) inlineStyle += "; color: #ffffff";
+			mark.setAttribute("style", existingStyle ? `${existingStyle}; ${inlineStyle}` : inlineStyle);
+		}
+	}
+};
+
+const isMeaningfulNode = (node: Node): boolean =>
+	node.nodeType !== NodeType.TEXT_NODE || node.toString().trim().length > 0;
+
+const isElement = (node: Node): node is HTMLElement => node.nodeType === NodeType.ELEMENT_NODE;
+
+const LEADING_BOLD_BOUNDARY_WHITESPACE = /^(?:[\u0020\u00a0]|&nbsp;|&#160;|&#xA0;)+/i;
+const TRAILING_BOLD_BOUNDARY_WHITESPACE = /(?:[\u0020\u00a0]|&nbsp;|&#160;|&#xA0;)+$/i;
+
+const normalizeBoldBoundaryWhitespace = (root: ReturnType<typeof parse>) => {
+	for (const bold of root.querySelectorAll("strong,b").reverse()) {
+		const firstChild = bold.childNodes[0];
+		if (firstChild?.nodeType === NodeType.TEXT_NODE) {
+			const whitespace = firstChild.rawText.match(LEADING_BOLD_BOUNDARY_WHITESPACE)?.[0];
+			if (whitespace) {
+				firstChild.rawText = firstChild.rawText.slice(whitespace.length);
+				bold.insertAdjacentHTML("beforebegin", whitespace);
+			}
+		}
+
+		const lastChild = bold.childNodes[bold.childNodes.length - 1];
+		if (lastChild?.nodeType === NodeType.TEXT_NODE) {
+			const whitespace = lastChild.rawText.match(TRAILING_BOLD_BOUNDARY_WHITESPACE)?.[0];
+			if (whitespace) {
+				lastChild.rawText = lastChild.rawText.slice(0, -whitespace.length);
+				bold.insertAdjacentHTML("afterend", whitespace);
+			}
+		}
+	}
+};
+
+const unwrapSingleParagraphListItems = (root: ReturnType<typeof parse>) => {
+	for (const listItem of root.querySelectorAll("li")) {
+		const meaningfulChildren = listItem.childNodes.filter(isMeaningfulNode);
+		if (meaningfulChildren.length !== 1) continue;
+
+		const child = meaningfulChildren[0];
+		if (!child || !isElement(child) || getTagName(child) !== "p") continue;
+
+		listItem.innerHTML = child.innerHTML;
+	}
+};
+
+const isInlineNode = (node: Node): boolean => {
+	if (node.nodeType === NodeType.TEXT_NODE || node.nodeType === NodeType.COMMENT_NODE) return true;
+	if (node.nodeType !== NodeType.ELEMENT_NODE) return false;
+
+	return inlineTags.has(getTagName(node)) && !hasBlockDescendant(node);
+};
+
+// Allow optional leading whitespace + LRM/RLM marks before the bullet character.
+const PSEUDO_BULLET_LEAD = /^[\s‎‏]*[-•*]\s+/;
+
+const stripEmptyInlineWrappers = (html: string): string =>
+	html.replace(/<(strong|b|em|i|u|span)\b[^>]*>\s*<\/\1>/gi, "");
+
+// Treat a bare <br> or one wrapped in an inline tag (e.g. `<strong><br></strong>` from
+// the editor) as the segment separator.
+const splitByBreaks = (html: string): string[] =>
+	html.split(/(?:<(?:strong|b|em|i|u|span)\b[^>]*>\s*<br\b[^>]*\/?>\s*<\/(?:strong|b|em|i|u|span)>)|<br\b[^>]*\/?>/gi);
+
+const tryConvertPseudoBulletParagraph = (paragraphInnerHtml: string): string | null => {
+	const cleaned = stripEmptyInlineWrappers(paragraphInnerHtml);
+	if (!/<br\b/i.test(cleaned)) return null;
+
+	const segments: string[] = [];
+	for (const segment of splitByBreaks(cleaned)) {
+		const trimmed = segment.trim();
+		if (trimmed.length > 0) segments.push(trimmed);
+	}
+
+	if (segments.length < 2) return null;
+	if (!segments.every((segment) => PSEUDO_BULLET_LEAD.test(segment))) return null;
+
+	const items = segments.map((segment) => segment.replace(PSEUDO_BULLET_LEAD, ""));
+
+	return `<ul>${items.map((item) => `<li>${item}</li>`).join("")}</ul>`;
+};
+
+export const convertPseudoBulletParagraphs = (html: string): string =>
+	html.replace(/<p\b([^>]*)>([\s\S]*?)<\/p>/gi, (full, _attrs, inner) => {
+		const converted = tryConvertPseudoBulletParagraph(inner);
+		return converted ?? full;
+	});
+
+type NormalizeRichTextHtmlOptions = {
+	direction?: "ltr" | "rtl";
+};
+
+export const normalizeRichTextHtml = (
+	html: string,
+	{ direction = "ltr" }: NormalizeRichTextHtmlOptions = {},
+): string => {
+	const root = parse(html.trim(), { comment: false });
+	const normalized: string[] = [];
+	let inlineNodes: string[] = [];
+
+	normalizeBoldBoundaryWhitespace(root);
+	normalizeMarkElements(root);
+	unwrapSingleParagraphListItems(root);
+
+	const flushInlineNodes = () => {
+		const inlineHtml = inlineNodes.join("");
+
+		if (inlineHtml.trim()) normalized.push(`<p>${inlineHtml}</p>`);
+
+		inlineNodes = [];
+	};
+
+	for (const node of root.childNodes) {
+		const nodeHtml = node.toString();
+
+		if (isInlineNode(node)) {
+			inlineNodes.push(nodeHtml);
+			continue;
+		}
+
+		flushInlineNodes();
+		normalized.push(nodeHtml);
+	}
+
+	flushInlineNodes();
+
+	const normalizedHtml = normalized.join("");
+	if (direction !== "rtl") return normalizedHtml;
+
+	// RTL pseudo-bullets must become real list items before both the semantic
+	// descriptor and renderer traverse the HTML. RLM anchors each independent
+	// react-pdf-html text frame without changing element ancestry or indices.
+	return convertPseudoBulletParagraphs(normalizedHtml).replace(
+		/<(p|li)\b([^>]*)>/gi,
+		(_match, tag, rest) => `<${tag}${rest}>‏`,
+	);
+};
+
+export const parseNormalizedRichTextHtml = (html: string, options?: NormalizeRichTextHtmlOptions) =>
+	parse(normalizeRichTextHtml(html, options), { comment: false });
+
+export const projectNormalizedRichTextHtml = (
+	html: string,
+	rootNodeKey: string,
+	renderedChildKeysFor: (nodeKey: string) => readonly string[] | undefined,
+): string => {
+	const root = parse(html, { comment: false });
+	const elements = root.querySelectorAll("*");
+
+	for (const element of elements) {
+		if (!getRichTextSemanticKind(element, richTextMarkClassName)) continue;
+		element.setAttribute(
+			richTextSemanticNodeKeyAttribute,
+			getRichTextSemanticNodeKey(rootNodeKey, element, richTextMarkClassName),
+		);
+	}
+
+	const visit = (parent: HTMLElement, parentNodeKey: string) => {
+		for (const child of parent.childNodes) {
+			if (!isElement(child)) continue;
+			const childNodeKey = child.getAttribute(richTextSemanticNodeKeyAttribute);
+			const childContentNodeKey =
+				childNodeKey && getTagName(child) === "li"
+					? `${childNodeKey}/list-item-content-0`
+					: (childNodeKey ?? parentNodeKey);
+			visit(child, childContentNodeKey);
+		}
+
+		const keyedChildren = parent.childNodes.flatMap((child) => {
+			if (!isElement(child)) return [];
+			const nodeKey = child.getAttribute(richTextSemanticNodeKeyAttribute);
+			return nodeKey ? [{ nodeKey, child }] : [];
+		});
+		if (keyedChildren.length === 0) return;
+		const renderedChildKeys = renderedChildKeysFor(parentNodeKey);
+		if (!renderedChildKeys) return;
+
+		const childByNodeKey = new Map(keyedChildren.map(({ nodeKey, child }) => [nodeKey, child]));
+		const projected = renderedChildKeys.flatMap((nodeKey) => {
+			const child = childByNodeKey.get(nodeKey);
+			return child ? [child] : [];
+		});
+		let projectedIndex = 0;
+		const nextChildren = parent.childNodes.flatMap((child) => {
+			if (!isElement(child) || !child.getAttribute(richTextSemanticNodeKeyAttribute)) return [child];
+			const projectedChild = projected[projectedIndex++];
+			return projectedChild ? [projectedChild] : [];
+		});
+		parent.set_content(nextChildren);
+	};
+
+	visit(root, rootNodeKey);
+	return root.toString();
+};
