@@ -13,7 +13,7 @@ permissions:
   packages: write
 
 env:
-  IMAGE: ghcr.io/${{ github.repository }}
+  IMAGE: ghcr.io/${{ github.repository_owner }}/reactive-resume-tencent
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
