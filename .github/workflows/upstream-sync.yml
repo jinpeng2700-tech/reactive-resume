@@ -1,0 +1,58 @@
+name: Upstream Sync
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Fetch stable upstream tags
+        id: release
+        run: |
+          git remote add upstream https://github.com/amruthpillai/reactive-resume.git 2>/dev/null || git remote set-url upstream https://github.com/amruthpillai/reactive-resume.git
+          git fetch upstream --tags --force
+          tag=$(git tag --list 'v*' | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+$' | sort -V | tail -n 1)
+          test -n "$tag"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          echo "branch=sync/upstream-$tag" >> "$GITHUB_OUTPUT"
+
+      - name: Stop when main already contains tag
+        id: needed
+        run: |
+          if git merge-base --is-ancestor "${{ steps.release.outputs.tag }}" origin/main; then
+            echo "value=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create reviewed sync branch
+        if: steps.needed.outputs.value == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch --force-create "${{ steps.release.outputs.branch }}" origin/main
+          git merge --no-ff --no-edit "${{ steps.release.outputs.tag }}"
+          git push --force-with-lease origin HEAD
+
+      - name: Open review pull request
+        if: steps.needed.outputs.value == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr create \
+            --base main \
+            --head "${{ steps.release.outputs.branch }}" \
+            --title "chore(upstream): merge ${{ steps.release.outputs.tag }}" \
+            --body "Official stable release. Review migration risk and checks before merging."
