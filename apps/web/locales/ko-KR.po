@@ -247,6 +247,10 @@ msgstr "A4"
 msgid "Absolutely! You can export your resume to PDF with a single click. The exported PDF maintains all your formatting and styling perfectly."
 msgstr "물론 가능합니다! 한 번의 클릭으로 이력서를 PDF로 내보낼 수 있습니다. 내보낸 PDF에는 모든 서식과 스타일이 그대로 유지됩니다."
 
+#: src/dialogs/resume/template/data.ts
+msgid "Accent colors"
+msgstr ""
+
 #: src/routes/_home/-sections/features.tsx
 msgid "Access your resumes and data programmatically using the API."
 msgstr "API를 사용해 이력서와 데이터를 프로그래밍 방식으로 사용할 수 있습니다."
@@ -733,6 +737,10 @@ msgstr "연구 분야"
 msgid "Artificial Intelligence"
 msgstr "인공지능"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Asian style"
+msgstr ""
+
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Ask anything about this resume"
 msgstr "이력서에 대해 궁금한 점이 있으면 무엇이든 물어보세요."
@@ -754,6 +762,10 @@ msgstr "ATS 수표"
 #: src/routes/dashboard/-components/sidebar.tsx
 msgid "ATS Checker"
 msgstr "ATS 검사기"
+
+#: src/dialogs/resume/template/data.ts
+msgid "ATS friendly"
+msgstr ""
 
 #: src/features/applications/components/application-detail-sheet.tsx
 #: src/features/applications/components/application-form-sheet.tsx
@@ -914,12 +926,20 @@ msgstr "일괄 업데이트에 실패했습니다. 다시 시도하세요."
 msgid "Bullet List"
 msgstr "글머리 기호 목록"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Business analyst"
+msgstr ""
+
 #. Tagline shown in app footer/about area
 #: src/components/ui/copyright.tsx
 #: src/routes/_home/-sections/features.tsx
 #: src/routes/_home/-sections/prefooter.tsx
 msgid "By the community, for the community."
 msgstr "커뮤니티에 의해, 커뮤니티를 위해."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Calm"
+msgstr ""
 
 #: src/routes/_home/-sections/faq.tsx
 msgid "Can I export my resume to PDF?"
@@ -1068,6 +1088,14 @@ msgstr "PDF, DOCX, Markdown 또는 JSON 형식 중에서 선택하세요. 가능
 msgid "Circle"
 msgstr "원"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Clean"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Clean typography"
+msgstr ""
+
 #. Clear the highlight color
 #. Clear the text color
 #: src/components/input/rich-input.tsx
@@ -1087,9 +1115,17 @@ msgstr "선택 해제"
 msgid "Click here to select a file to import"
 msgstr "가져올 파일을 선택하려면 여기를 클릭하세요"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Client-facing"
+msgstr ""
+
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Close AI assistant"
 msgstr "AI 비서 닫기"
+
+#: src/dialogs/resume/template/data.ts
+msgid "CN/JP/KR"
+msgstr ""
 
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "Cohere"
@@ -1118,6 +1154,10 @@ msgstr "명령 팔레트 - {currentPage}"
 #: src/routes/_home/-sections/footer.tsx
 msgid "Community"
 msgstr "커뮤니티"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Compact"
+msgstr ""
 
 #: src/dialogs/resume/sections/experience.tsx
 #: src/features/applications/components/application-form-sheet.tsx
@@ -1178,6 +1218,10 @@ msgstr "연결에 실패했습니다."
 msgid "Connection verified — provider is ready to use."
 msgstr "연결이 확인되었습니다. 공급자를 사용할 준비가 되었습니다."
 
+#: src/dialogs/resume/template/data.ts
+msgid "Consulting"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 msgid "Contact details"
 msgstr "연락처 정보"
@@ -1190,6 +1234,10 @@ msgstr "연락처"
 #: src/dialogs/resume/sections/summary-item.tsx
 msgid "Content"
 msgstr "내용"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Content creator"
+msgstr ""
 
 #: src/features/ats-checker/messages.ts
 msgid "Content is laid out in a grid."
@@ -1276,6 +1324,10 @@ msgstr "이 비밀 키를 복사해 애플리케이션에 붙여넣어 데이터
 #: src/routes/builder/$resumeId/-sidebar/right/sections/sharing.tsx
 msgid "Copy URL"
 msgstr "URL 복사"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Corporate"
+msgstr ""
 
 #: src/libs/resume/ats.ts
 msgid "Correct the year, or use \"Present\" for ongoing work."
@@ -1507,6 +1559,10 @@ msgstr "API 키를 생성하는 중입니다..."
 msgid "Creating your resume..."
 msgstr "이력서를 생성하는 중입니다..."
 
+#: src/dialogs/resume/template/data.ts
+msgid "Creative"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Crop picture"
 msgstr "사진을 잘라내세요"
@@ -1554,6 +1610,10 @@ msgstr "덴마크어"
 msgid "Dark"
 msgstr "다크"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Dark sidebar"
+msgstr ""
+
 #: src/features/command-palette/pages/preferences/theme.tsx
 msgid "Dark theme"
 msgstr "다크 테마"
@@ -1561,6 +1621,10 @@ msgstr "다크 테마"
 #: src/routes/dashboard/-components/sidebar.tsx
 msgid "Dashboard"
 msgstr "계기반"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Data science"
+msgstr ""
 
 #: src/routes/_home/-sections/features.tsx
 msgid "Data Security"
@@ -1711,10 +1775,18 @@ msgstr "설명"
 msgid "Design"
 msgstr "디자인"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Designer"
+msgstr ""
+
 #. Label above the raw error text forwarded by the identity provider
 #: src/features/auth/pages/error.tsx
 msgid "Details from the provider:"
 msgstr "공급자에서 제공한 세부 정보:"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Developer"
+msgstr ""
 
 #. Destructive action button to turn off two-factor authentication
 #: src/dialogs/auth/disable-two-factor.tsx
@@ -1854,6 +1926,10 @@ msgstr "네덜란드어"
 msgid "Earlier versions are kept; the builder's undo history is reset."
 msgstr "이전 버전은 유지되지만, 빌더의 실행 취소 기록은 초기화됩니다."
 
+#: src/dialogs/resume/template/data.ts
+msgid "Earthy"
+msgstr ""
+
 #: src/components/input/chip-input.tsx
 #: src/features/applications/components/application-actions-menu.tsx
 #: src/features/applications/components/application-detail-sheet.tsx
@@ -1920,11 +1996,19 @@ msgstr "편집 기능은 잠금 해제하기 전까지 비활성화되어 있습
 msgid "Editing keyword..."
 msgstr "키워드 편집 중..."
 
+#: src/dialogs/resume/template/data.ts
+msgid "Editorial"
+msgstr ""
+
 #: src/dialogs/resume/sections/custom.tsx
 #: src/libs/resume/section-title.ts
 #: src/libs/resume/section.tsx
 msgid "Education"
 msgstr "학력"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Efficient"
+msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
 msgid "Email"
@@ -2012,6 +2096,14 @@ msgstr "2단계 인증을 설정하려면 비밀번호를 입력해 확인하세
 msgid "Enter your password to disable two-factor authentication. Your account will be less secure without 2FA enabled."
 msgstr "2단계 인증을 비활성화하려면 비밀번호를 입력하세요. 2단계 인증을 사용하지 않으면 계정 보안이 낮아집니다."
 
+#: src/dialogs/resume/template/data.ts
+msgid "Enterprise"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Entry level"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/right/sections/ats-check.tsx
 msgid "Error"
 msgstr "오류"
@@ -2027,6 +2119,10 @@ msgstr "크든 작든 모든 기여는 프로젝트에 큰 변화를 가져옵�
 #: src/routes/_home/-sections/features.tsx
 msgid "Everything you need to create, customize, and share professional resumes. Built with privacy in mind, powered by open source, and completely free forever."
 msgstr "전문적인 이력서를 만들고, 사용자 지정하고, 공유하는 데 필요한 모든 것을 제공합니다. 개인정보 보호를 최우선으로 설계되었으며, 오픈 소스로 구동되고, 완전히 무료입니다."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Executive"
+msgstr ""
 
 #: src/features/resume/stylesheet/toolbar.tsx
 msgid "Exit focus mode"
@@ -2297,6 +2393,10 @@ msgstr "다음 기준으로 필터링"
 msgid "Filter by tags"
 msgstr "태그로 필터링"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Finance"
+msgstr ""
+
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Find weak bullets and rewrite them with stronger outcomes, numbers, scope, and sharper verbs."
 msgstr "약한 항목들을 찾아내어 더 강력한 결과, 수치, 범위 및 더 명확한 동사를 사용하여 다시 작성하십시오."
@@ -2504,6 +2604,10 @@ msgstr "그리스어"
 msgid "Grid"
 msgstr "그리드"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Grid layout"
+msgstr ""
+
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "Groq"
 msgstr "그로크"
@@ -2545,6 +2649,10 @@ msgstr "제목 6"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
 msgid "Headline"
 msgstr "헤드라인"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Healthcare"
+msgstr ""
 
 #: src/libs/locale.ts
 msgid "Hebrew"
@@ -2643,6 +2751,10 @@ msgstr "API는 어떻게 사용하나요?"
 #: src/routes/_home/-sections/faq.tsx
 msgid "How is my data protected?"
 msgstr "내 데이터는 어떻게 보호되나요?"
+
+#: src/dialogs/resume/template/data.ts
+msgid "HR"
+msgstr ""
 
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "https://gateway.example.com/v1"
@@ -2752,6 +2864,10 @@ msgstr "정보"
 msgid "Inline Code"
 msgstr "인라인 코드"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Inline header"
+msgstr ""
+
 #: src/routes/dashboard/applications/index.tsx
 msgid "Insights"
 msgstr "인사이트"
@@ -2777,6 +2893,10 @@ msgstr "통합"
 #: src/libs/resume/section.tsx
 msgid "Interests"
 msgstr "관심사"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Internship"
+msgstr ""
 
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "Invalid AI provider configuration."
@@ -2864,6 +2984,10 @@ msgstr "john.doe@example.com"
 #: src/dialogs/resume/import.tsx
 msgid "JSON Resume"
 msgstr "JSON 이력서"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Junior"
+msgstr ""
 
 #: src/components/input/rich-input.tsx
 msgid "Justify Align"
@@ -3006,6 +3130,10 @@ msgstr "AI 제공업체 설정을 위해 나가시겠습니까?"
 #: src/components/input/rich-input.tsx
 msgid "Left Align"
 msgstr "왼쪽 정렬"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Legal"
+msgstr ""
 
 #: src/features/ats-checker/messages.ts
 msgid "Length is not a defect, and there is no universal one-page rule. Keep the pages that earn their place."
@@ -3165,6 +3293,10 @@ msgstr "인증 앱에 접근할 수 없으신가요?"
 msgid "Low impact"
 msgstr "낮은 영향도"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Magenta accent"
+msgstr ""
+
 #. Layout editor column label for the primary content area
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
 msgid "Main"
@@ -3214,6 +3346,10 @@ msgstr "여백(세로)"
 msgid "Mark rejected"
 msgstr "거절됨으로 표시"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Marketing"
+msgstr ""
+
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Match scoring failed."
 msgstr "적합도 점수화에 실패했습니다."
@@ -3228,6 +3364,10 @@ msgstr "중간 영향도"
 msgid "Microsoft Word"
 msgstr "Microsoft Word"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Minimal"
+msgstr ""
+
 #: src/routes/agent/-components/resume-pane.tsx
 msgid "Missing working resume"
 msgstr "이력서가 누락되었습니다."
@@ -3239,6 +3379,10 @@ msgstr "미스트랄 AI"
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "Model"
 msgstr "모델"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Modern"
+msgstr ""
 
 #: src/features/ats-checker/messages.ts
 msgid "More than one email address appears."
@@ -3299,6 +3443,10 @@ msgstr "다국어 지원"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/custom-fields.tsx
 msgid "Must start with https://"
 msgstr "https:// 으로 시작해야 합니다."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Muted sidebar"
+msgstr ""
 
 #. Label for full name input on registration form
 #: src/dialogs/api-key/create.tsx
@@ -3407,6 +3555,10 @@ msgstr "AI 제공업체로부터 반환된 데이터가 없습니다."
 msgid "No dates were found."
 msgstr "날짜를 찾을 수 없습니다."
 
+#: src/dialogs/resume/template/data.ts
+msgid "No decoration"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 msgid "No education section was found."
 msgstr "학력 섹션을 찾을 수 없습니다."
@@ -3491,6 +3643,10 @@ msgstr "아직 스레드가 없습니다."
 #: src/features/ats-checker/messages.ts
 msgid "No work-experience section was found."
 msgstr "경력 섹션을 찾을 수 없습니다."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Nonprofit"
+msgstr ""
 
 #: src/libs/locale.ts
 msgid "Norwegian"
@@ -3640,6 +3796,10 @@ msgstr "OpenRouter"
 #: src/routes/_home/-sections/footer.tsx
 msgid "opens in new tab"
 msgstr "새 탭에서 열림"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Operations"
+msgstr ""
 
 #: src/routes/agent/-components/patch-approval-card.tsx
 msgid "Optional note for the agent"
@@ -3890,6 +4050,10 @@ msgstr "PDF 파일이 생성되는 동안 잠시 기다려 주세요…"
 msgid "Polish"
 msgstr "폴란드어"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Polished"
+msgstr ""
+
 #. Preset button for setting picture aspect ratio to portrait orientation
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Portrait"
@@ -3963,6 +4127,10 @@ msgstr "기본 색상"
 #: src/features/ats-checker/messages.ts
 msgid "Print or export the form to a flat PDF before sending it."
 msgstr "보내기 전에 양식을 일반 PDF로 인쇄하거나 내보내세요."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Professional"
+msgstr ""
 
 #: src/dialogs/resume/sections/skill.tsx
 msgid "Proficiency"
@@ -4633,6 +4801,10 @@ msgstr "PDF에서 이미 추출된 텍스트를 아래에서 선택한 AI 제공
 msgid "Sends the text already extracted from your PDF, plus the job description you pasted, to the AI provider you choose below. The PDF file itself is never uploaded."
 msgstr "PDF에서 이미 추출된 텍스트와 붙여넣은 채용 공고를 아래에서 선택한 AI 제공업체로 전송합니다. PDF 파일 자체는 업로드되지 않습니다."
 
+#: src/dialogs/resume/template/data.ts
+msgid "Senior"
+msgstr ""
+
 #: src/components/input/rich-input.tsx
 msgid "Separator"
 msgstr "구분선"
@@ -4752,6 +4924,7 @@ msgid "Showing {0} of {1}"
 msgstr "{1}개 중 {0}개 표시"
 
 #. Layout editor column label for the secondary sidebar area
+#: src/dialogs/resume/template/data.ts
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
 msgid "Sidebar"
 msgstr "사이드바"
@@ -4810,6 +4983,14 @@ msgid "Signing up..."
 msgstr "가입 중..."
 
 #: src/dialogs/resume/template/data.ts
+msgid "Simple"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
 msgid "Single-column with a magenta left border accent; compact and efficient for entry-level or internship applications."
 msgstr "마젠타색 왼쪽 테두리 포인트가 있는 단일 열 레이아웃으로, 신입·인턴 지원서에 적합한 컴팩트하고 효율적인 템플릿입니다."
 
@@ -4861,6 +5042,10 @@ msgstr "슬로베니아어"
 #: src/dialogs/resume/index.tsx
 msgid "Slug"
 msgstr "슬러그"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Soft accent"
+msgstr ""
 
 #: src/libs/resume/ats.ts
 msgid "Some application systems require one before you can submit."
@@ -5039,6 +5224,10 @@ msgstr "이력서 첫 줄에 이름만 단독으로 배치하세요."
 msgid "Start Thread"
 msgstr "시작 스레드"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Startup"
+msgstr ""
+
 #: src/libs/resume/section.tsx
 msgid "Statistics"
 msgstr "통계"
@@ -5101,6 +5290,10 @@ msgstr "Reactive Resume 후원하기"
 msgid "Support the app by doing what you can!"
 msgstr "가능한 방식으로 앱을 지원해 주세요!"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Sustainability"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 #: src/libs/resume/ats.ts
 msgid "Swap the start and end dates."
@@ -5161,6 +5354,18 @@ msgstr "맞춤 조정에 실패했습니다."
 msgid "Tamil"
 msgstr "타밀어"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Tech"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Technical"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Technical PM"
+msgstr ""
+
 #: src/libs/locale.ts
 msgid "Telugu"
 msgstr "텔루구어"
@@ -5209,6 +5414,10 @@ msgstr "텍스트가 한 글자씩 개별적으로 작성되어 있습니다."
 #: src/features/ats-checker/messages.ts
 msgid "Text sits in the header or footer area."
 msgstr "텍스트가 머리글 또는 바닥글 영역에 있습니다."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Text-dense"
+msgstr ""
 
 #: src/libs/locale.ts
 msgid "Thai"
@@ -5745,6 +5954,10 @@ msgstr "첫 지원 추적"
 msgid "Track your resume's views and downloads"
 msgstr "이력서 조회 수와 다운로드 수 추적"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Traditional"
+msgstr ""
+
 #: src/routes/_home/-sections/footer.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Translations"
@@ -5765,6 +5978,10 @@ msgstr "내보낼 때 임의 합자(리게이처)를 비활성화하세요."
 #: src/routes/builder/$resumeId/-sidebar/right/sections/statistics.tsx
 msgid "Turn on public sharing to track how many times your resume has been viewed or downloaded. Only you can see your resume's statistics."
 msgstr "공유를 공개로 전환하면 이력서가 얼마나 자주 조회되었는지, 다운로드되었는지 추적할 수 있습니다. 통계는 사용자 본인만 볼 수 있습니다."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column"
+msgstr ""
 
 #: src/dialogs/resume/template/data.ts
 msgid "Two-column with a bold colored sidebar and skill bars; great for creative or tech roles where visual flair is welcome."
@@ -5851,6 +6068,10 @@ msgstr "보관 해제"
 #: src/components/input/rich-input.tsx
 msgid "Underline"
 msgstr "밑줄"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Understated"
+msgstr ""
 
 #: src/dialogs/resume/template/gallery.tsx
 #: src/routes/builder/$resumeId/-components/dock.tsx
@@ -6014,6 +6235,10 @@ msgstr "사진 업로드 중…"
 msgid "Uploading…"
 msgstr "업로드 중…"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Uppercase headings"
+msgstr ""
+
 #. Form field label for the generated public resume link in sharing settings
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/sharing.tsx
@@ -6154,6 +6379,10 @@ msgstr "비밀번호를 확인하는 중입니다..."
 msgid "Verifying your email is required when resetting your password."
 msgstr "비밀번호를 재설정하려면 이메일 인증이 필요합니다."
 
+#: src/dialogs/resume/template/data.ts
+msgid "Versatile"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-components/version-history.tsx
 msgid "Version history"
 msgstr "버전 기록"
@@ -6173,6 +6402,10 @@ msgstr "베트남어"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/statistics.tsx
 msgid "Views"
 msgstr "조회 수"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Visual flair"
+msgstr ""
 
 #: src/dialogs/resume/sections/custom.tsx
 #: src/libs/resume/section-title.ts
@@ -6310,6 +6543,10 @@ msgstr "이름, 이메일, 전화번호, 날짜가 손상 없이 유지되는지
 #: src/features/ats-checker/messages.ts
 msgid "Whether your timeline can be reconstructed."
 msgstr "타임라인을 재구성할 수 있는지 여부."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Whitespace"
+msgstr ""
 
 #: src/features/ats-checker/messages.ts
 msgid "Words run together when the text is extracted."

@@ -1,5 +1,6 @@
 import type { AIProvider } from "@reactive-resume/ai/types";
 import type { ResumeData } from "@reactive-resume/schema/resume/data";
+import type { Locale } from "@reactive-resume/utils/locale";
 import type { ModelMessage, UIMessage } from "ai";
 import { inflateRawSync } from "node:zlib";
 import { createAnthropic } from "@ai-sdk/anthropic";
@@ -47,6 +48,7 @@ import {
 import { AI_PROVIDER_DEFAULT_BASE_URLS, AI_PROVIDER_DISPLAY_NAMES, aiProviderSchema } from "@reactive-resume/ai/types";
 import { applyResumePatches } from "@reactive-resume/resume/patch";
 import { supportsProviderNativeWebSearch } from "./capabilities";
+import { buildAiOutputLanguageInstruction } from "./language";
 import { resolveAiBaseUrl } from "./url-policy";
 
 const aiExtractionTemplate = buildAiExtractionTemplate();
@@ -461,11 +463,12 @@ async function parseDocx(input: ParseDocxInput): Promise<ResumeData> {
 	return parseAndValidateResumeJson(result.text);
 }
 
-function buildChatSystemPrompt(resumeData: ResumeData): string {
-	return chatSystemPromptTemplate.replace("{{RESUME_DATA}}", JSON.stringify(resumeData, null, 2));
+function buildChatSystemPrompt(resumeData: ResumeData, locale: Locale): string {
+	return `${chatSystemPromptTemplate.replace("{{RESUME_DATA}}", JSON.stringify(resumeData, null, 2))}\n\n${buildAiOutputLanguageInstruction(locale)}`;
 }
 
 type ChatInput = z.infer<typeof aiCredentialsSchema> & {
+	locale: Locale;
 	messages: UIMessage[];
 	resumeData: ResumeData;
 	resumeUpdatedAt: Date;
@@ -473,7 +476,7 @@ type ChatInput = z.infer<typeof aiCredentialsSchema> & {
 
 async function chat(input: ChatInput) {
 	const model = getModel(input);
-	const systemPrompt = buildChatSystemPrompt(input.resumeData);
+	const systemPrompt = buildChatSystemPrompt(input.resumeData, input.locale);
 
 	const result = streamText({
 		model,

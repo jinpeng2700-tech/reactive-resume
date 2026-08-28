@@ -247,6 +247,10 @@ msgstr "A4"
 msgid "Absolutely! You can export your resume to PDF with a single click. The exported PDF maintains all your formatting and styling perfectly."
 msgstr "もちろん可能です。ワンクリックでレジュメを PDF にエクスポートできます。エクスポートされた PDF では、書式やスタイルがそのまま維持されます。"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Accent colors"
+msgstr ""
+
 #: src/routes/_home/-sections/features.tsx
 msgid "Access your resumes and data programmatically using the API."
 msgstr "API を使用して、プログラムからレジュメとデータにアクセスできます。"
@@ -733,6 +737,10 @@ msgstr "研究分野"
 msgid "Artificial Intelligence"
 msgstr "人工知能"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Asian style"
+msgstr ""
+
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Ask anything about this resume"
 msgstr "このレジュメについて何でも質問してください"
@@ -754,6 +762,10 @@ msgstr "ATSチェック"
 #: src/routes/dashboard/-components/sidebar.tsx
 msgid "ATS Checker"
 msgstr "ATSチェッカー"
+
+#: src/dialogs/resume/template/data.ts
+msgid "ATS friendly"
+msgstr ""
 
 #: src/features/applications/components/application-detail-sheet.tsx
 #: src/features/applications/components/application-form-sheet.tsx
@@ -914,12 +926,20 @@ msgstr "一括更新に失敗しました。もう一度お試しください。
 msgid "Bullet List"
 msgstr "箇条書きリスト"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Business analyst"
+msgstr ""
+
 #. Tagline shown in app footer/about area
 #: src/components/ui/copyright.tsx
 #: src/routes/_home/-sections/features.tsx
 #: src/routes/_home/-sections/prefooter.tsx
 msgid "By the community, for the community."
 msgstr "コミュニティによる、コミュニティのためのプロジェクト。"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Calm"
+msgstr ""
 
 #: src/routes/_home/-sections/faq.tsx
 msgid "Can I export my resume to PDF?"
@@ -1068,6 +1088,14 @@ msgstr "PDF、DOCX、Markdown、またはJSON形式を選択してください�
 msgid "Circle"
 msgstr "サークル"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Clean"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Clean typography"
+msgstr ""
+
 #. Clear the highlight color
 #. Clear the text color
 #: src/components/input/rich-input.tsx
@@ -1087,9 +1115,17 @@ msgstr "選択をクリア"
 msgid "Click here to select a file to import"
 msgstr "ここをクリックしてインポートするファイルを選択"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Client-facing"
+msgstr ""
+
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Close AI assistant"
 msgstr "AIアシスタントを閉じる"
+
+#: src/dialogs/resume/template/data.ts
+msgid "CN/JP/KR"
+msgstr ""
 
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "Cohere"
@@ -1118,6 +1154,10 @@ msgstr "コマンドパレット - {currentPage}"
 #: src/routes/_home/-sections/footer.tsx
 msgid "Community"
 msgstr "コミュニティ"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Compact"
+msgstr ""
 
 #: src/dialogs/resume/sections/experience.tsx
 #: src/features/applications/components/application-form-sheet.tsx
@@ -1178,6 +1218,10 @@ msgstr "接続に失敗しました。"
 msgid "Connection verified — provider is ready to use."
 msgstr "接続確認済み — プロバイダは使用可能です。"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Consulting"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 msgid "Contact details"
 msgstr "連絡先情報"
@@ -1190,6 +1234,10 @@ msgstr "連絡先"
 #: src/dialogs/resume/sections/summary-item.tsx
 msgid "Content"
 msgstr "コンテンツ"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Content creator"
+msgstr ""
 
 #: src/features/ats-checker/messages.ts
 msgid "Content is laid out in a grid."
@@ -1276,6 +1324,10 @@ msgstr "このシークレットキーをコピーし、アプリケーション
 #: src/routes/builder/$resumeId/-sidebar/right/sections/sharing.tsx
 msgid "Copy URL"
 msgstr "URL をコピー"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Corporate"
+msgstr ""
 
 #: src/libs/resume/ats.ts
 msgid "Correct the year, or use \"Present\" for ongoing work."
@@ -1507,6 +1559,10 @@ msgstr "API キーを作成しています..."
 msgid "Creating your resume..."
 msgstr "レジュメを作成しています…"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Creative"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Crop picture"
 msgstr "トリミング画像"
@@ -1554,6 +1610,10 @@ msgstr "デンマーク語"
 msgid "Dark"
 msgstr "ダーク"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Dark sidebar"
+msgstr ""
+
 #: src/features/command-palette/pages/preferences/theme.tsx
 msgid "Dark theme"
 msgstr "ダークテーマ"
@@ -1561,6 +1621,10 @@ msgstr "ダークテーマ"
 #: src/routes/dashboard/-components/sidebar.tsx
 msgid "Dashboard"
 msgstr "ダッシュボード"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Data science"
+msgstr ""
 
 #: src/routes/_home/-sections/features.tsx
 msgid "Data Security"
@@ -1711,10 +1775,18 @@ msgstr "説明"
 msgid "Design"
 msgstr "デザイン"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Designer"
+msgstr ""
+
 #. Label above the raw error text forwarded by the identity provider
 #: src/features/auth/pages/error.tsx
 msgid "Details from the provider:"
 msgstr "プロバイダーからの詳細:"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Developer"
+msgstr ""
 
 #. Destructive action button to turn off two-factor authentication
 #: src/dialogs/auth/disable-two-factor.tsx
@@ -1854,6 +1926,10 @@ msgstr "オランダ語"
 msgid "Earlier versions are kept; the builder's undo history is reset."
 msgstr "以前のバージョンは保持されますが、作成者の元に戻す履歴はリセットされます。"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Earthy"
+msgstr ""
+
 #: src/components/input/chip-input.tsx
 #: src/features/applications/components/application-actions-menu.tsx
 #: src/features/applications/components/application-detail-sheet.tsx
@@ -1920,11 +1996,19 @@ msgstr "ロックを解除するまで編集はできません。"
 msgid "Editing keyword..."
 msgstr "キーワードの編集..."
 
+#: src/dialogs/resume/template/data.ts
+msgid "Editorial"
+msgstr ""
+
 #: src/dialogs/resume/sections/custom.tsx
 #: src/libs/resume/section-title.ts
 #: src/libs/resume/section.tsx
 msgid "Education"
 msgstr "学歴"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Efficient"
+msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
 msgid "Email"
@@ -2012,6 +2096,14 @@ msgstr "二要素認証を設定することを確定するために、パスワ
 msgid "Enter your password to disable two-factor authentication. Your account will be less secure without 2FA enabled."
 msgstr "二要素認証を無効にするには、パスワードを入力してください。2FA を無効化すると、アカウントのセキュリティレベルは下がります。"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Enterprise"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Entry level"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/right/sections/ats-check.tsx
 msgid "Error"
 msgstr "エラー"
@@ -2027,6 +2119,10 @@ msgstr "すべてのご支援は、大きくても小さくても、このプロ
 #: src/routes/_home/-sections/features.tsx
 msgid "Everything you need to create, customize, and share professional resumes. Built with privacy in mind, powered by open source, and completely free forever."
 msgstr "プロフェッショナルな履歴書・職務経歴書を作成・カスタマイズ・共有するために必要な機能がすべて揃っています。プライバシーを重視して設計され、オープンソースによって支えられ、そして完全に無料で利用できます。"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Executive"
+msgstr ""
 
 #: src/features/resume/stylesheet/toolbar.tsx
 msgid "Exit focus mode"
@@ -2297,6 +2393,10 @@ msgstr "絞り込み条件"
 msgid "Filter by tags"
 msgstr "タグで絞り込み"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Finance"
+msgstr ""
+
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Find weak bullets and rewrite them with stronger outcomes, numbers, scope, and sharper verbs."
 msgstr "弱い箇条書きを見つけ出し、より力強い成果、数値、範囲、そしてより鋭い動詞を用いて書き直してください。"
@@ -2504,6 +2604,10 @@ msgstr "ギリシャ語"
 msgid "Grid"
 msgstr "グリッド表示"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Grid layout"
+msgstr ""
+
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "Groq"
 msgstr "グロク"
@@ -2545,6 +2649,10 @@ msgstr "見出し 6"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
 msgid "Headline"
 msgstr "肩書き"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Healthcare"
+msgstr ""
 
 #: src/libs/locale.ts
 msgid "Hebrew"
@@ -2643,6 +2751,10 @@ msgstr "API はどのように使えばよいですか？"
 #: src/routes/_home/-sections/faq.tsx
 msgid "How is my data protected?"
 msgstr "自分のデータはどのように保護されていますか？"
+
+#: src/dialogs/resume/template/data.ts
+msgid "HR"
+msgstr ""
 
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "https://gateway.example.com/v1"
@@ -2752,6 +2864,10 @@ msgstr "情報"
 msgid "Inline Code"
 msgstr "インラインコード"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Inline header"
+msgstr ""
+
 #: src/routes/dashboard/applications/index.tsx
 msgid "Insights"
 msgstr "インサイト"
@@ -2777,6 +2893,10 @@ msgstr "統合"
 #: src/libs/resume/section.tsx
 msgid "Interests"
 msgstr "趣味・関心"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Internship"
+msgstr ""
 
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "Invalid AI provider configuration."
@@ -2864,6 +2984,10 @@ msgstr "taro.yamada@example.com"
 #: src/dialogs/resume/import.tsx
 msgid "JSON Resume"
 msgstr "JSON Resume"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Junior"
+msgstr ""
 
 #: src/components/input/rich-input.tsx
 msgid "Justify Align"
@@ -3006,6 +3130,10 @@ msgstr "AI プロバイダーのセットアップを辞めますか?"
 #: src/components/input/rich-input.tsx
 msgid "Left Align"
 msgstr "左揃え"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Legal"
+msgstr ""
 
 #: src/features/ats-checker/messages.ts
 msgid "Length is not a defect, and there is no universal one-page rule. Keep the pages that earn their place."
@@ -3165,6 +3293,10 @@ msgstr "認証アプリにアクセスできなくなりましたか？"
 msgid "Low impact"
 msgstr "影響小"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Magenta accent"
+msgstr ""
+
 #. Layout editor column label for the primary content area
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
 msgid "Main"
@@ -3214,6 +3346,10 @@ msgstr "余白（上下）"
 msgid "Mark rejected"
 msgstr "不採用としてマーク"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Marketing"
+msgstr ""
+
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Match scoring failed."
 msgstr "適合度スコアリングに失敗しました。"
@@ -3228,6 +3364,10 @@ msgstr "影響中"
 msgid "Microsoft Word"
 msgstr "Microsoft Word"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Minimal"
+msgstr ""
+
 #: src/routes/agent/-components/resume-pane.tsx
 msgid "Missing working resume"
 msgstr "レジュメが選択されていません"
@@ -3239,6 +3379,10 @@ msgstr "ミストラルAI"
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "Model"
 msgstr "モデル"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Modern"
+msgstr ""
 
 #: src/features/ats-checker/messages.ts
 msgid "More than one email address appears."
@@ -3299,6 +3443,10 @@ msgstr "多言語対応"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/custom-fields.tsx
 msgid "Must start with https://"
 msgstr "先頭を https:// にしてください"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Muted sidebar"
+msgstr ""
 
 #. Label for full name input on registration form
 #: src/dialogs/api-key/create.tsx
@@ -3407,6 +3555,10 @@ msgstr "AIプロバイダーからデータが返されませんでした。"
 msgid "No dates were found."
 msgstr "日付が見つかりませんでした。"
 
+#: src/dialogs/resume/template/data.ts
+msgid "No decoration"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 msgid "No education section was found."
 msgstr "学歴セクションが見つかりませんでした。"
@@ -3491,6 +3643,10 @@ msgstr "まだスレッドはありません。"
 #: src/features/ats-checker/messages.ts
 msgid "No work-experience section was found."
 msgstr "職歴セクションが見つかりませんでした。"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Nonprofit"
+msgstr ""
 
 #: src/libs/locale.ts
 msgid "Norwegian"
@@ -3640,6 +3796,10 @@ msgstr "OpenRouter"
 #: src/routes/_home/-sections/footer.tsx
 msgid "opens in new tab"
 msgstr "新しいタブで開きます"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Operations"
+msgstr ""
 
 #: src/routes/agent/-components/patch-approval-card.tsx
 msgid "Optional note for the agent"
@@ -3890,6 +4050,10 @@ msgstr "PDFが生成されるまでしばらくお待ちください…"
 msgid "Polish"
 msgstr "ポーランド語"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Polished"
+msgstr ""
+
 #. Preset button for setting picture aspect ratio to portrait orientation
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Portrait"
@@ -3963,6 +4127,10 @@ msgstr "メインカラー"
 #: src/features/ats-checker/messages.ts
 msgid "Print or export the form to a flat PDF before sending it."
 msgstr "送信前に、フォームをフラットなPDFとして印刷またはエクスポートしてください。"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Professional"
+msgstr ""
 
 #: src/dialogs/resume/sections/skill.tsx
 msgid "Proficiency"
@@ -4633,6 +4801,10 @@ msgstr "PDFからすでに抽出済みのテキストを、以下で選択した
 msgid "Sends the text already extracted from your PDF, plus the job description you pasted, to the AI provider you choose below. The PDF file itself is never uploaded."
 msgstr "PDFからすでに抽出済みのテキストと、貼り付けた求人情報を、以下で選択したAIプロバイダーに送信します。PDFファイル自体はアップロードされません。"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Senior"
+msgstr ""
+
 #: src/components/input/rich-input.tsx
 msgid "Separator"
 msgstr "区切り線"
@@ -4752,6 +4924,7 @@ msgid "Showing {0} of {1}"
 msgstr "{1} 件中 {0} 件を表示"
 
 #. Layout editor column label for the secondary sidebar area
+#: src/dialogs/resume/template/data.ts
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
 msgid "Sidebar"
 msgstr "サイドバー"
@@ -4810,6 +4983,14 @@ msgid "Signing up..."
 msgstr "登録中…"
 
 #: src/dialogs/resume/template/data.ts
+msgid "Simple"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
 msgid "Single-column with a magenta left border accent; compact and efficient for entry-level or internship applications."
 msgstr "マゼンタの左ボーダーアクセントが付いた 1 カラムのレイアウト。コンパクトで、初級職やインターンシップの応募に最適です。"
 
@@ -4861,6 +5042,10 @@ msgstr "スロベニア語"
 #: src/dialogs/resume/index.tsx
 msgid "Slug"
 msgstr "スラッグ"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Soft accent"
+msgstr ""
 
 #: src/libs/resume/ats.ts
 msgid "Some application systems require one before you can submit."
@@ -5039,6 +5224,10 @@ msgstr "履歴書は氏名を単独の行として先頭に配置してくださ
 msgid "Start Thread"
 msgstr "スレッドを開始"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Startup"
+msgstr ""
+
 #: src/libs/resume/section.tsx
 msgid "Statistics"
 msgstr "統計"
@@ -5101,6 +5290,10 @@ msgstr "Reactive Resume を支援する"
 msgid "Support the app by doing what you can!"
 msgstr "できる範囲で、このアプリをサポートしてください。"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Sustainability"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 #: src/libs/resume/ats.ts
 msgid "Swap the start and end dates."
@@ -5161,6 +5354,18 @@ msgstr "調整に失敗しました。"
 msgid "Tamil"
 msgstr "タミル語"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Tech"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Technical"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Technical PM"
+msgstr ""
+
 #: src/libs/locale.ts
 msgid "Telugu"
 msgstr "テルグ語"
@@ -5209,6 +5414,10 @@ msgstr "テキストが1文字ずつ個別に書き込まれています。"
 #: src/features/ats-checker/messages.ts
 msgid "Text sits in the header or footer area."
 msgstr "テキストがヘッダーまたはフッター領域に配置されています。"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Text-dense"
+msgstr ""
 
 #: src/libs/locale.ts
 msgid "Thai"
@@ -5745,6 +5954,10 @@ msgstr "最初の応募を追跡"
 msgid "Track your resume's views and downloads"
 msgstr "閲覧数とダウンロード数を確認する"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Traditional"
+msgstr ""
+
 #: src/routes/_home/-sections/footer.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Translations"
@@ -5765,6 +5978,10 @@ msgstr "エクスポート時に任意の合字（ディスクレショナリー
 #: src/routes/builder/$resumeId/-sidebar/right/sections/statistics.tsx
 msgid "Turn on public sharing to track how many times your resume has been viewed or downloaded. Only you can see your resume's statistics."
 msgstr "公開共有をオンにすると、レジュメの閲覧数・ダウンロード数を確認できます。統計情報はあなただけが見ることができます。"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column"
+msgstr ""
 
 #: src/dialogs/resume/template/data.ts
 msgid "Two-column with a bold colored sidebar and skill bars; great for creative or tech roles where visual flair is welcome."
@@ -5851,6 +6068,10 @@ msgstr "アーカイブ解除"
 #: src/components/input/rich-input.tsx
 msgid "Underline"
 msgstr "下線"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Understated"
+msgstr ""
 
 #: src/dialogs/resume/template/gallery.tsx
 #: src/routes/builder/$resumeId/-components/dock.tsx
@@ -6014,6 +6235,10 @@ msgstr "画像をアップロード中…"
 msgid "Uploading…"
 msgstr "アップロード中…"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Uppercase headings"
+msgstr ""
+
 #. Form field label for the generated public resume link in sharing settings
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/sharing.tsx
@@ -6154,6 +6379,10 @@ msgstr "パスワードを確認しています..."
 msgid "Verifying your email is required when resetting your password."
 msgstr "パスワードをリセットするには、メールアドレスの確認が必要です。"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Versatile"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-components/version-history.tsx
 msgid "Version history"
 msgstr "バージョン履歴"
@@ -6173,6 +6402,10 @@ msgstr "ベトナム語"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/statistics.tsx
 msgid "Views"
 msgstr "閲覧数"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Visual flair"
+msgstr ""
 
 #: src/dialogs/resume/sections/custom.tsx
 #: src/libs/resume/section-title.ts
@@ -6310,6 +6543,10 @@ msgstr "氏名、メールアドレス、電話番号、日付が損なわれず
 #: src/features/ats-checker/messages.ts
 msgid "Whether your timeline can be reconstructed."
 msgstr "経歴を時系列で再構築できるかどうか。"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Whitespace"
+msgstr ""
 
 #: src/features/ats-checker/messages.ts
 msgid "Words run together when the text is extracted."

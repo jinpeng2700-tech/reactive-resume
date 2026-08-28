@@ -109,4 +109,12 @@ describe("agent tools", () => {
 		expect(buildAgentInstructions({ hasProviderNativeSearch: false })).toContain("never prefixed with /data");
 		expect(buildAgentInstructions({ hasProviderNativeSearch: false })).toContain("clean Markdown");
 	});
+
+	it("uses the current interface locale for generated agent content", () => {
+		const instructions = buildAgentInstructions({ hasProviderNativeSearch: true, locale: "zh-CN" });
+
+		expect(instructions).toContain("zh-CN");
+		expect(instructions).toContain("all generated user-facing text");
+		expect(instructions).toContain("unless the user explicitly requests another language");
+	});
 });

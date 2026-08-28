@@ -247,6 +247,10 @@ msgstr "A4"
 msgid "Absolutely! You can export your resume to PDF with a single click. The exported PDF maintains all your formatting and styling perfectly."
 msgstr "অবশ্যই! আপনি এক ক্লিকেই আপনার জীবনবৃত্তান্তকে PDF আকারে এক্সপোর্ট করতে পারবেন। এক্সপোর্ট করা PDF-এ আপনার সব ফরম্যাটিং ও স্টাইলিং ঠিক যেমন আছে তেমনই থাকবে।"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Accent colors"
+msgstr ""
+
 #: src/routes/_home/-sections/features.tsx
 msgid "Access your resumes and data programmatically using the API."
 msgstr "API ব্যবহার করে প্রোগ্রামেটিক ভাবে আপনার জীবনবৃত্তান্ত ও ডেটায় প্রবেশ করুন।"
@@ -733,6 +737,10 @@ msgstr "অধ্যয়নের এলাকা"
 msgid "Artificial Intelligence"
 msgstr "কৃত্রিম বুদ্ধিমত্তা"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Asian style"
+msgstr ""
+
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Ask anything about this resume"
 msgstr "এই জীবনবৃত্তান্ত সম্পর্কে যেকোনো কিছু জিজ্ঞাসা করুন।"
@@ -754,6 +762,10 @@ msgstr "ATS চেক"
 #: src/routes/dashboard/-components/sidebar.tsx
 msgid "ATS Checker"
 msgstr "ATS চেকার"
+
+#: src/dialogs/resume/template/data.ts
+msgid "ATS friendly"
+msgstr ""
 
 #: src/features/applications/components/application-detail-sheet.tsx
 #: src/features/applications/components/application-form-sheet.tsx
@@ -914,12 +926,20 @@ msgstr "একসাথে অনেক কিছু আপডেট করা �
 msgid "Bullet List"
 msgstr "বুলেট লিস্ট"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Business analyst"
+msgstr ""
+
 #. Tagline shown in app footer/about area
 #: src/components/ui/copyright.tsx
 #: src/routes/_home/-sections/features.tsx
 #: src/routes/_home/-sections/prefooter.tsx
 msgid "By the community, for the community."
 msgstr "সম্প্রদায়ের দ্বারা, সম্প্রদায়ের জন্য।"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Calm"
+msgstr ""
 
 #: src/routes/_home/-sections/faq.tsx
 msgid "Can I export my resume to PDF?"
@@ -1068,6 +1088,14 @@ msgstr "PDF, DOCX, Markdown, বা JSON বেছে নিন। উপলব�
 msgid "Circle"
 msgstr "বৃত্ত"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Clean"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Clean typography"
+msgstr ""
+
 #. Clear the highlight color
 #. Clear the text color
 #: src/components/input/rich-input.tsx
@@ -1087,9 +1115,17 @@ msgstr "নির্বাচন পরিষ্কার করুন"
 msgid "Click here to select a file to import"
 msgstr "ইমপোর্ট করার জন্য এখান ক্লিক করে একটি ফাইল নির্বাচন করুন"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Client-facing"
+msgstr ""
+
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Close AI assistant"
 msgstr "এআই সহকারী বন্ধ করুন"
+
+#: src/dialogs/resume/template/data.ts
+msgid "CN/JP/KR"
+msgstr ""
 
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "Cohere"
@@ -1118,6 +1154,10 @@ msgstr "কমান্ড প্যালেট - {currentPage}"
 #: src/routes/_home/-sections/footer.tsx
 msgid "Community"
 msgstr "কমিউনিটি"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Compact"
+msgstr ""
 
 #: src/dialogs/resume/sections/experience.tsx
 #: src/features/applications/components/application-form-sheet.tsx
@@ -1178,6 +1218,10 @@ msgstr "সংযোগ ব্যর্থ হয়েছে।"
 msgid "Connection verified — provider is ready to use."
 msgstr "সংযোগ যাচাই করা হয়েছে — পরিষেবা প্রদানকারী ব্যবহারের জন্য প্রস্তুত।"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Consulting"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 msgid "Contact details"
 msgstr "যোগাযোগের বিবরণ"
@@ -1190,6 +1234,10 @@ msgstr "যোগাযোগ"
 #: src/dialogs/resume/sections/summary-item.tsx
 msgid "Content"
 msgstr "বিষয়বস্তু"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Content creator"
+msgstr ""
 
 #: src/features/ats-checker/messages.ts
 msgid "Content is laid out in a grid."
@@ -1276,6 +1324,10 @@ msgstr "এই সিক্রেট কী কপি করে আপনার 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/sharing.tsx
 msgid "Copy URL"
 msgstr "URL কপি করুন"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Corporate"
+msgstr ""
 
 #: src/libs/resume/ats.ts
 msgid "Correct the year, or use \"Present\" for ongoing work."
@@ -1507,6 +1559,10 @@ msgstr "আপনার API কী তৈরি করা হচ্ছে..."
 msgid "Creating your resume..."
 msgstr "আপনার জীবনবৃত্তান্ত তৈরি করা হচ্ছে..."
 
+#: src/dialogs/resume/template/data.ts
+msgid "Creative"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Crop picture"
 msgstr "ছবি ক্রপ করুন"
@@ -1554,6 +1610,10 @@ msgstr "ডেনিশ"
 msgid "Dark"
 msgstr "ডার্ক"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Dark sidebar"
+msgstr ""
+
 #: src/features/command-palette/pages/preferences/theme.tsx
 msgid "Dark theme"
 msgstr "ডার্ক থিম"
@@ -1561,6 +1621,10 @@ msgstr "ডার্ক থিম"
 #: src/routes/dashboard/-components/sidebar.tsx
 msgid "Dashboard"
 msgstr "ড্যাশবোর্ড"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Data science"
+msgstr ""
 
 #: src/routes/_home/-sections/features.tsx
 msgid "Data Security"
@@ -1711,10 +1775,18 @@ msgstr "বিবরণ"
 msgid "Design"
 msgstr "ডিজাইন"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Designer"
+msgstr ""
+
 #. Label above the raw error text forwarded by the identity provider
 #: src/features/auth/pages/error.tsx
 msgid "Details from the provider:"
 msgstr "প্রদানকারীর কাছ থেকে বিবরণ:"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Developer"
+msgstr ""
 
 #. Destructive action button to turn off two-factor authentication
 #: src/dialogs/auth/disable-two-factor.tsx
@@ -1854,6 +1926,10 @@ msgstr "ডাচ"
 msgid "Earlier versions are kept; the builder's undo history is reset."
 msgstr "পূর্ববর্তী সংস্করণগুলি সংরক্ষিত থাকে; বিল্ডারের আনডু হিস্ট্রি রিসেট হয়ে যায়।"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Earthy"
+msgstr ""
+
 #: src/components/input/chip-input.tsx
 #: src/features/applications/components/application-actions-menu.tsx
 #: src/features/applications/components/application-detail-sheet.tsx
@@ -1920,11 +1996,19 @@ msgstr "আনলক না করা পর্যন্ত সম্পাদ�
 msgid "Editing keyword..."
 msgstr "সম্পাদনা কীওয়ার্ড..."
 
+#: src/dialogs/resume/template/data.ts
+msgid "Editorial"
+msgstr ""
+
 #: src/dialogs/resume/sections/custom.tsx
 #: src/libs/resume/section-title.ts
 #: src/libs/resume/section.tsx
 msgid "Education"
 msgstr "শিক্ষা"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Efficient"
+msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
 msgid "Email"
@@ -2012,6 +2096,14 @@ msgstr "টু‑ফ্যাক্টর প্রমাণীকরণ সে�
 msgid "Enter your password to disable two-factor authentication. Your account will be less secure without 2FA enabled."
 msgstr "টু‑ফ্যাক্টর প্রমাণীকরণ বন্ধ করতে আপনার পাসওয়ার্ড লিখুন। 2FA বন্ধ করলে আপনার অ্যাকাউন্ট কম সুরক্ষিত থাকবে।"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Enterprise"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Entry level"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/right/sections/ats-check.tsx
 msgid "Error"
 msgstr "ত্রুটি"
@@ -2027,6 +2119,10 @@ msgstr "প্রতিটি অবদান, বড় বা ছোট, প�
 #: src/routes/_home/-sections/features.tsx
 msgid "Everything you need to create, customize, and share professional resumes. Built with privacy in mind, powered by open source, and completely free forever."
 msgstr "পেশাদার জীবনবৃত্তান্ত তৈরি, কাস্টমাইজ এবং শেয়ার করার জন্য যা যা প্রয়োজন সবই এখানে আছে। গোপনীয়তা মাথায় রেখে তৈরি, মুক্ত উৎস দ্বারা চালিত এবং চিরদিনের জন্য সম্পূর্ণ বিনামূল্যে।"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Executive"
+msgstr ""
 
 #: src/features/resume/stylesheet/toolbar.tsx
 msgid "Exit focus mode"
@@ -2297,6 +2393,10 @@ msgstr "ফিল্টার করুন"
 msgid "Filter by tags"
 msgstr "ট্যাগ দিয়ে ফিল্টার করুন"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Finance"
+msgstr ""
+
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Find weak bullets and rewrite them with stronger outcomes, numbers, scope, and sharper verbs."
 msgstr "দুর্বল বুলেট পয়েন্টগুলো খুঁজে বের করুন এবং সেগুলোকে আরও জোরালো ফলাফল, সংখ্যা, পরিধি ও তীক্ষ্ণ ক্রিয়াপদ দিয়ে নতুন করে লিখুন।"
@@ -2504,6 +2604,10 @@ msgstr "গ্রিক"
 msgid "Grid"
 msgstr "গ্রিড"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Grid layout"
+msgstr ""
+
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "Groq"
 msgstr "গ্রোক"
@@ -2545,6 +2649,10 @@ msgstr "হেডিং ৬"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
 msgid "Headline"
 msgstr "শিরোনাম"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Healthcare"
+msgstr ""
 
 #: src/libs/locale.ts
 msgid "Hebrew"
@@ -2643,6 +2751,10 @@ msgstr "আমি কীভাবে API ব্যবহার করব?"
 #: src/routes/_home/-sections/faq.tsx
 msgid "How is my data protected?"
 msgstr "আমার ডেটা কীভাবে সুরক্ষিত থাকে?"
+
+#: src/dialogs/resume/template/data.ts
+msgid "HR"
+msgstr ""
 
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "https://gateway.example.com/v1"
@@ -2752,6 +2864,10 @@ msgstr "তথ্য"
 msgid "Inline Code"
 msgstr "ইনলাইন কোড"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Inline header"
+msgstr ""
+
 #: src/routes/dashboard/applications/index.tsx
 msgid "Insights"
 msgstr "অন্তর্দৃষ্টি"
@@ -2777,6 +2893,10 @@ msgstr "সংযোজনসমূহ"
 #: src/libs/resume/section.tsx
 msgid "Interests"
 msgstr "আগ্রহসমূহ"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Internship"
+msgstr ""
 
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "Invalid AI provider configuration."
@@ -2864,6 +2984,10 @@ msgstr "john.doe@example.com"
 #: src/dialogs/resume/import.tsx
 msgid "JSON Resume"
 msgstr "জেএসন রিজ্যুম"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Junior"
+msgstr ""
 
 #: src/components/input/rich-input.tsx
 msgid "Justify Align"
@@ -3006,6 +3130,10 @@ msgstr "একটি AI প্রদানকারী সেট আপ কর�
 #: src/components/input/rich-input.tsx
 msgid "Left Align"
 msgstr "বাম দিকে অ্যালাইন"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Legal"
+msgstr ""
 
 #: src/features/ats-checker/messages.ts
 msgid "Length is not a defect, and there is no universal one-page rule. Keep the pages that earn their place."
@@ -3165,6 +3293,10 @@ msgstr "অথেনটিকেটরে প্রবেশাধিকার �
 msgid "Low impact"
 msgstr "কম প্রভাব"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Magenta accent"
+msgstr ""
+
 #. Layout editor column label for the primary content area
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
 msgid "Main"
@@ -3214,6 +3346,10 @@ msgstr "মার্জিন (উল্লম্ব)"
 msgid "Mark rejected"
 msgstr "মার্ক প্রত্যাখ্যান করেছে"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Marketing"
+msgstr ""
+
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Match scoring failed."
 msgstr "ম্যাচের স্কোরিং ব্যর্থ হয়েছে।"
@@ -3228,6 +3364,10 @@ msgstr "মাঝারি প্রভাব"
 msgid "Microsoft Word"
 msgstr "মাইক্রোসফট ওয়ার্ড"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Minimal"
+msgstr ""
+
 #: src/routes/agent/-components/resume-pane.tsx
 msgid "Missing working resume"
 msgstr "কাজের জীবনবৃত্তান্ত অনুপস্থিত"
@@ -3239,6 +3379,10 @@ msgstr "মিস্ট্রাল এআই"
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "Model"
 msgstr "মডেল"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Modern"
+msgstr ""
 
 #: src/features/ats-checker/messages.ts
 msgid "More than one email address appears."
@@ -3299,6 +3443,10 @@ msgstr "বহুভাষিক"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/custom-fields.tsx
 msgid "Must start with https://"
 msgstr "https:// দিয়ে শুরু করতে হবে।"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Muted sidebar"
+msgstr ""
 
 #. Label for full name input on registration form
 #: src/dialogs/api-key/create.tsx
@@ -3407,6 +3555,10 @@ msgstr "এআই প্রদানকারী থেকে কোনো ড�
 msgid "No dates were found."
 msgstr "কোনো তারিখ পাওয়া যায়নি।"
 
+#: src/dialogs/resume/template/data.ts
+msgid "No decoration"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 msgid "No education section was found."
 msgstr "কোনো শিক্ষা সেকশন পাওয়া যায়নি।"
@@ -3491,6 +3643,10 @@ msgstr "এখনো কোনো থ্রেড নেই।"
 #: src/features/ats-checker/messages.ts
 msgid "No work-experience section was found."
 msgstr "কোনো কর্ম-অভিজ্ঞতা সেকশন পাওয়া যায়নি।"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Nonprofit"
+msgstr ""
 
 #: src/libs/locale.ts
 msgid "Norwegian"
@@ -3640,6 +3796,10 @@ msgstr "ওপেনরাউটার"
 #: src/routes/_home/-sections/footer.tsx
 msgid "opens in new tab"
 msgstr "নতুন ট্যাবে খুলবে"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Operations"
+msgstr ""
 
 #: src/routes/agent/-components/patch-approval-card.tsx
 msgid "Optional note for the agent"
@@ -3890,6 +4050,10 @@ msgstr "আপনার পিডিএফ তৈরি হওয়া পর�
 msgid "Polish"
 msgstr "পোলিশ"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Polished"
+msgstr ""
+
 #. Preset button for setting picture aspect ratio to portrait orientation
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Portrait"
@@ -3963,6 +4127,10 @@ msgstr "প্রাথমিক রঙ"
 #: src/features/ats-checker/messages.ts
 msgid "Print or export the form to a flat PDF before sending it."
 msgstr "পাঠানোর আগে ফর্মটি প্রিন্ট বা ফ্ল্যাট PDF হিসেবে এক্সপোর্ট করুন।"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Professional"
+msgstr ""
 
 #: src/dialogs/resume/sections/skill.tsx
 msgid "Proficiency"
@@ -4633,6 +4801,10 @@ msgstr "আপনার PDF থেকে ইতিমধ্যে এক্স�
 msgid "Sends the text already extracted from your PDF, plus the job description you pasted, to the AI provider you choose below. The PDF file itself is never uploaded."
 msgstr "আপনার PDF থেকে ইতিমধ্যে এক্সট্র্যাক্ট করা টেক্সট এবং আপনার পেস্ট করা চাকরির বিবরণ নিচে বেছে নেওয়া এআই প্রোভাইডারের কাছে পাঠায়। PDF ফাইলটি নিজে কখনো আপলোড করা হয় না।"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Senior"
+msgstr ""
+
 #: src/components/input/rich-input.tsx
 msgid "Separator"
 msgstr "সেপারেটর"
@@ -4752,6 +4924,7 @@ msgid "Showing {0} of {1}"
 msgstr "{1} এর {0} দেখানো হচ্ছে"
 
 #. Layout editor column label for the secondary sidebar area
+#: src/dialogs/resume/template/data.ts
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
 msgid "Sidebar"
 msgstr "সাইডবার"
@@ -4810,6 +4983,14 @@ msgid "Signing up..."
 msgstr "সাইন আপ হচ্ছে..."
 
 #: src/dialogs/resume/template/data.ts
+msgid "Simple"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
 msgid "Single-column with a magenta left border accent; compact and efficient for entry-level or internship applications."
 msgstr "এক কলামের লেআউট, ম্যাজেন্টা বাম বর্ডার অ্যাকসেন্টসহ; ইন্টার্নশিপ বা এন্ট্রি‑লেভেল আবেদনের জন্য কমপ্যাক্ট ও কার্যকরী।"
 
@@ -4861,6 +5042,10 @@ msgstr "স্লোভেনীয়"
 #: src/dialogs/resume/index.tsx
 msgid "Slug"
 msgstr "স্লাগ"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Soft accent"
+msgstr ""
 
 #: src/libs/resume/ats.ts
 msgid "Some application systems require one before you can submit."
@@ -5039,6 +5224,10 @@ msgstr "জীবনবৃত্তান্তটি আপনার নাম 
 msgid "Start Thread"
 msgstr "থ্রেড শুরু করুন"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Startup"
+msgstr ""
+
 #: src/libs/resume/section.tsx
 msgid "Statistics"
 msgstr "পরিসংখ্যান"
@@ -5101,6 +5290,10 @@ msgstr "Reactive Resume‑কে সহায়তা করুন"
 msgid "Support the app by doing what you can!"
 msgstr "যা পারেন তা করে অ্যাপটিকে সহায়তা করুন!"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Sustainability"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 #: src/libs/resume/ats.ts
 msgid "Swap the start and end dates."
@@ -5161,6 +5354,18 @@ msgstr "দর্জিকাজের কাজ ব্যর্থ হয়ে
 msgid "Tamil"
 msgstr "তামিল"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Tech"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Technical"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Technical PM"
+msgstr ""
+
 #: src/libs/locale.ts
 msgid "Telugu"
 msgstr "তেলেগু"
@@ -5209,6 +5414,10 @@ msgstr "টেক্সট একবারে একটি করে অক্�
 #: src/features/ats-checker/messages.ts
 msgid "Text sits in the header or footer area."
 msgstr "টেক্সট হেডার বা ফুটার এলাকায় রয়েছে।"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Text-dense"
+msgstr ""
 
 #: src/libs/locale.ts
 msgid "Thai"
@@ -5745,6 +5954,10 @@ msgstr "আপনার প্রথম আবেদনটি ট্র্যা
 msgid "Track your resume's views and downloads"
 msgstr "আপনার জীবনবৃত্তান্তের ভিউ এবং ডাউনলোডের সংখ্যা ট্র্যাক করুন"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Traditional"
+msgstr ""
+
 #: src/routes/_home/-sections/footer.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Translations"
@@ -5765,6 +5978,10 @@ msgstr "এক্সপোর্ট করার সময় ঐচ্ছিক
 #: src/routes/builder/$resumeId/-sidebar/right/sections/statistics.tsx
 msgid "Turn on public sharing to track how many times your resume has been viewed or downloaded. Only you can see your resume's statistics."
 msgstr "সর্বজনীন শেয়ার চালু করে দেখুন আপনার জীবনবৃত্তান্ত কতবার দেখা হয়েছে বা ডাউনলোড করা হয়েছে। শুধু আপনিই আপনার জীবনবৃত্তান্তের পরিসংখ্যান দেখতে পারবেন।"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column"
+msgstr ""
 
 #: src/dialogs/resume/template/data.ts
 msgid "Two-column with a bold colored sidebar and skill bars; great for creative or tech roles where visual flair is welcome."
@@ -5851,6 +6068,10 @@ msgstr "আর্কাইভ সরান"
 #: src/components/input/rich-input.tsx
 msgid "Underline"
 msgstr "আন্ডারলাইন"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Understated"
+msgstr ""
 
 #: src/dialogs/resume/template/gallery.tsx
 #: src/routes/builder/$resumeId/-components/dock.tsx
@@ -6014,6 +6235,10 @@ msgstr "ছবি আপলোড করা হচ্ছে…"
 msgid "Uploading…"
 msgstr "… আপলোড হচ্ছে"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Uppercase headings"
+msgstr ""
+
 #. Form field label for the generated public resume link in sharing settings
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/sharing.tsx
@@ -6154,6 +6379,10 @@ msgstr "পাসওয়ার্ড যাচাই করা হচ্ছে
 msgid "Verifying your email is required when resetting your password."
 msgstr "পাসওয়ার্ড রিসেট করার সময় আপনার ইমেইল যাচাই করা বাধ্যতামূলক।"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Versatile"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-components/version-history.tsx
 msgid "Version history"
 msgstr "সংস্করণ ইতিহাস"
@@ -6173,6 +6402,10 @@ msgstr "ভিয়েতনামি"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/statistics.tsx
 msgid "Views"
 msgstr "ভিউ"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Visual flair"
+msgstr ""
 
 #: src/dialogs/resume/sections/custom.tsx
 #: src/libs/resume/section-title.ts
@@ -6310,6 +6543,10 @@ msgstr "আপনার নাম, ইমেইল, ফোন ও তারি�
 #: src/features/ats-checker/messages.ts
 msgid "Whether your timeline can be reconstructed."
 msgstr "আপনার টাইমলাইন পুনর্গঠন করা যায় কিনা।"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Whitespace"
+msgstr ""
 
 #: src/features/ats-checker/messages.ts
 msgid "Words run together when the text is extracted."

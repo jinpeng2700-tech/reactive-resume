@@ -2,7 +2,7 @@
 
 import { afterEach, describe, expect, it, vi } from "vitest";
 import Cookies from "js-cookie";
-import { changeLocale, formatRelativeTime, isLocale, resolveLocale } from "./locale";
+import { changeLocale, formatRelativeTime, getLocale, isLocale, resolveLocale } from "./locale";
 
 afterEach(() => {
 	vi.restoreAllMocks();
@@ -45,12 +45,39 @@ describe("resolveLocale", () => {
 		expect(resolveLocale("fr-FR")).toBe("fr-FR");
 	});
 
-	it("returns en-US default for invalid locale", () => {
-		expect(resolveLocale("xx-YY")).toBe("en-US");
+	it("returns zh-CN default for invalid locale", () => {
+		expect(resolveLocale("xx-YY")).toBe("zh-CN");
 	});
 
-	it("returns en-US default for empty string", () => {
-		expect(resolveLocale("")).toBe("en-US");
+	it("returns zh-CN default for empty string", () => {
+		expect(resolveLocale("")).toBe("zh-CN");
+	});
+});
+
+describe("getLocale", () => {
+	it("uses a stored locale before the system locale", () => {
+		Cookies.set("locale", "en-GB");
+		vi.spyOn(navigator, "languages", "get").mockReturnValue(["zh-CN"]);
+
+		expect(getLocale()).toBe("en-GB");
+	});
+
+	it("uses the exact system locale when no locale is stored", () => {
+		vi.spyOn(navigator, "languages", "get").mockReturnValue(["zh-TW", "en-US"]);
+
+		expect(getLocale()).toBe("zh-TW");
+	});
+
+	it("uses a supported locale with the same primary language", () => {
+		vi.spyOn(navigator, "languages", "get").mockReturnValue(["de-AT"]);
+
+		expect(getLocale()).toBe("de-DE");
+	});
+
+	it("falls back to zh-CN for unsupported system locales", () => {
+		vi.spyOn(navigator, "languages", "get").mockReturnValue(["xx-YY"]);
+
+		expect(getLocale()).toBe("zh-CN");
 	});
 });
 

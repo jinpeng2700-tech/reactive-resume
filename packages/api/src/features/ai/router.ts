@@ -169,6 +169,7 @@ export const aiRouter = {
 					apiKey: provider.apiKey,
 					baseURL: provider.baseURL ?? "",
 					messages: input.messages,
+					locale: context.locale,
 					resumeData: resume.data,
 					resumeUpdatedAt: resume.updatedAt,
 				});
@@ -204,6 +205,7 @@ export const aiRouter = {
 
 				return await reviewResumeText({
 					...input,
+					locale: context.locale,
 					provider: provider.provider,
 					model: provider.model,
 					apiKey: provider.apiKey,

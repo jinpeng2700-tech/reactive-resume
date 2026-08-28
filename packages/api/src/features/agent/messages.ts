@@ -27,6 +27,7 @@ export const messagesRouter = {
 			agentService.messages.send({
 				userId: context.user.id,
 				threadId: input.threadId,
+				locale: context.locale,
 				message: input.message,
 				...(input.attachmentIds ? { attachmentIds: input.attachmentIds } : {}),
 			}),

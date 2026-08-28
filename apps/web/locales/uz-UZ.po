@@ -247,6 +247,10 @@ msgstr "A4"
 msgid "Absolutely! You can export your resume to PDF with a single click. The exported PDF maintains all your formatting and styling perfectly."
 msgstr "Albatta! Tarjimai holingizni bir marta bosish bilan PDF formatiga eksport qilishingiz mumkin. Eksport qilingan PDF sizning barcha format va uslublaringizni to‘liq saqlab qoladi."
 
+#: src/dialogs/resume/template/data.ts
+msgid "Accent colors"
+msgstr ""
+
 #: src/routes/_home/-sections/features.tsx
 msgid "Access your resumes and data programmatically using the API."
 msgstr "Tarjimai hollaringiz va ma'lumotlaringizdan API orqali dasturiy ravishda foydalaning."
@@ -733,6 +737,10 @@ msgstr "Ta'lim sohasi"
 msgid "Artificial Intelligence"
 msgstr "Sun'iy intellekt"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Asian style"
+msgstr ""
+
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Ask anything about this resume"
 msgstr "Ushbu rezyume haqida biron narsa so'rang"
@@ -754,6 +762,10 @@ msgstr "ATS tekshiruvi"
 #: src/routes/dashboard/-components/sidebar.tsx
 msgid "ATS Checker"
 msgstr "ATS tekshiruvchisi"
+
+#: src/dialogs/resume/template/data.ts
+msgid "ATS friendly"
+msgstr ""
 
 #: src/features/applications/components/application-detail-sheet.tsx
 #: src/features/applications/components/application-form-sheet.tsx
@@ -914,12 +926,20 @@ msgstr "Ommaviy yangilash amalga oshmadi. Qayta urinib ko'ring."
 msgid "Bullet List"
 msgstr "Nuqta roʻyxati"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Business analyst"
+msgstr ""
+
 #. Tagline shown in app footer/about area
 #: src/components/ui/copyright.tsx
 #: src/routes/_home/-sections/features.tsx
 #: src/routes/_home/-sections/prefooter.tsx
 msgid "By the community, for the community."
 msgstr "Jamiyat tomonidan, jamiyat uchun."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Calm"
+msgstr ""
 
 #: src/routes/_home/-sections/faq.tsx
 msgid "Can I export my resume to PDF?"
@@ -1068,6 +1088,14 @@ msgstr "PDF, DOCX, Markdown yoki JSON formatlarini tanlang. Rezyume va muqova xa
 msgid "Circle"
 msgstr "Doira"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Clean"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Clean typography"
+msgstr ""
+
 #. Clear the highlight color
 #. Clear the text color
 #: src/components/input/rich-input.tsx
@@ -1087,9 +1115,17 @@ msgstr "Tanlovni tozalash"
 msgid "Click here to select a file to import"
 msgstr "Import qilish uchun faylni tanlash uchun shu yerni bosing"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Client-facing"
+msgstr ""
+
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Close AI assistant"
 msgstr "Sun'iy intellekt yordamchisini yopish"
+
+#: src/dialogs/resume/template/data.ts
+msgid "CN/JP/KR"
+msgstr ""
 
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "Cohere"
@@ -1118,6 +1154,10 @@ msgstr "Buyruqlar palitrasi - {currentPage}"
 #: src/routes/_home/-sections/footer.tsx
 msgid "Community"
 msgstr "Hamjamiyat"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Compact"
+msgstr ""
 
 #: src/dialogs/resume/sections/experience.tsx
 #: src/features/applications/components/application-form-sheet.tsx
@@ -1178,6 +1218,10 @@ msgstr "Ulanish amalga oshmadi."
 msgid "Connection verified — provider is ready to use."
 msgstr "Ulanish tasdiqlandi — provayder foydalanishga tayyor."
 
+#: src/dialogs/resume/template/data.ts
+msgid "Consulting"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 msgid "Contact details"
 msgstr "Kontakt ma'lumotlari"
@@ -1190,6 +1234,10 @@ msgstr "Kontaktlar"
 #: src/dialogs/resume/sections/summary-item.tsx
 msgid "Content"
 msgstr "Mazmun"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Content creator"
+msgstr ""
 
 #: src/features/ats-checker/messages.ts
 msgid "Content is laid out in a grid."
@@ -1276,6 +1324,10 @@ msgstr "Ushbu maxfiy kalitni nusxalab, maʼlumotlaringizga kirish uchun ilovalar
 #: src/routes/builder/$resumeId/-sidebar/right/sections/sharing.tsx
 msgid "Copy URL"
 msgstr "URL-ni nusxalash"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Corporate"
+msgstr ""
 
 #: src/libs/resume/ats.ts
 msgid "Correct the year, or use \"Present\" for ongoing work."
@@ -1507,6 +1559,10 @@ msgstr "API kalitingiz yaratilmoqda..."
 msgid "Creating your resume..."
 msgstr "Rezyumingiz yaratilmoqda..."
 
+#: src/dialogs/resume/template/data.ts
+msgid "Creative"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Crop picture"
 msgstr "Rasmni qirqish"
@@ -1554,6 +1610,10 @@ msgstr "Daniya tili"
 msgid "Dark"
 msgstr "To‘q"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Dark sidebar"
+msgstr ""
+
 #: src/features/command-palette/pages/preferences/theme.tsx
 msgid "Dark theme"
 msgstr "To‘q mavzu"
@@ -1561,6 +1621,10 @@ msgstr "To‘q mavzu"
 #: src/routes/dashboard/-components/sidebar.tsx
 msgid "Dashboard"
 msgstr "Boshqaruv paneli"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Data science"
+msgstr ""
 
 #: src/routes/_home/-sections/features.tsx
 msgid "Data Security"
@@ -1711,10 +1775,18 @@ msgstr "Ta'rif"
 msgid "Design"
 msgstr "Dizayn"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Designer"
+msgstr ""
+
 #. Label above the raw error text forwarded by the identity provider
 #: src/features/auth/pages/error.tsx
 msgid "Details from the provider:"
 msgstr "Provayderdan tafsilotlar:"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Developer"
+msgstr ""
 
 #. Destructive action button to turn off two-factor authentication
 #: src/dialogs/auth/disable-two-factor.tsx
@@ -1854,6 +1926,10 @@ msgstr "Golland tili"
 msgid "Earlier versions are kept; the builder's undo history is reset."
 msgstr "Avvalgi versiyalar saqlanib qoladi; quruvchining bekor qilish tarixi qayta tiklanadi."
 
+#: src/dialogs/resume/template/data.ts
+msgid "Earthy"
+msgstr ""
+
 #: src/components/input/chip-input.tsx
 #: src/features/applications/components/application-actions-menu.tsx
 #: src/features/applications/components/application-detail-sheet.tsx
@@ -1920,11 +1996,19 @@ msgstr "Qulfni ochmaguningizcha tahrirlash o'chirib qo'yilgan."
 msgid "Editing keyword..."
 msgstr "Kalit so'zni tahrirlash..."
 
+#: src/dialogs/resume/template/data.ts
+msgid "Editorial"
+msgstr ""
+
 #: src/dialogs/resume/sections/custom.tsx
 #: src/libs/resume/section-title.ts
 #: src/libs/resume/section.tsx
 msgid "Education"
 msgstr "Ta'lim"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Efficient"
+msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
 msgid "Email"
@@ -2012,6 +2096,14 @@ msgstr "Ikki bosqichli autentifikatsiyani yoqishni tasdiqlash uchun parolingizni
 msgid "Enter your password to disable two-factor authentication. Your account will be less secure without 2FA enabled."
 msgstr "Ikki bosqichli autentifikatsiyani o‘chirishni tasdiqlash uchun parolingizni kiriting. 2BShT yoqilmagan holda hisobingiz kamroq xavfsiz boʻladi."
 
+#: src/dialogs/resume/template/data.ts
+msgid "Enterprise"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Entry level"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/right/sections/ats-check.tsx
 msgid "Error"
 msgstr "Xato"
@@ -2027,6 +2119,10 @@ msgstr "Har bir hissa, kichik yoki katta bo‘lishidan qat’i nazar, loyiha uch
 #: src/routes/_home/-sections/features.tsx
 msgid "Everything you need to create, customize, and share professional resumes. Built with privacy in mind, powered by open source, and completely free forever."
 msgstr "Professional rezyumelar yaratish, sozlash va ulashish uchun kerakli barcha narsa. Maxfiylik tamoyiliga asoslangan, ochiq manba asosida qurilgan va doimiy ravishda butunlay bepul."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Executive"
+msgstr ""
 
 #: src/features/resume/stylesheet/toolbar.tsx
 msgid "Exit focus mode"
@@ -2297,6 +2393,10 @@ msgstr "Saralash"
 msgid "Filter by tags"
 msgstr "Teglar bo‘yicha filtrlash"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Finance"
+msgstr ""
+
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Find weak bullets and rewrite them with stronger outcomes, numbers, scope, and sharper verbs."
 msgstr "Zaif o'qlarni toping va ularni kuchliroq natijalar, raqamlar, ko'lam va aniqroq fe'llar bilan qayta yozing."
@@ -2504,6 +2604,10 @@ msgstr "Yunon tili"
 msgid "Grid"
 msgstr "Jadval"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Grid layout"
+msgstr ""
+
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "Groq"
 msgstr "Groq"
@@ -2545,6 +2649,10 @@ msgstr "Sarlavha 6"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
 msgid "Headline"
 msgstr "Sarlavha"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Healthcare"
+msgstr ""
 
 #: src/libs/locale.ts
 msgid "Hebrew"
@@ -2643,6 +2751,10 @@ msgstr "API-dan qanday foydalanaman?"
 #: src/routes/_home/-sections/faq.tsx
 msgid "How is my data protected?"
 msgstr "Maʼlumotlarim qanday himoyalangan?"
+
+#: src/dialogs/resume/template/data.ts
+msgid "HR"
+msgstr ""
 
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "https://gateway.example.com/v1"
@@ -2752,6 +2864,10 @@ msgstr "Maʼlumot"
 msgid "Inline Code"
 msgstr "Inline kod"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Inline header"
+msgstr ""
+
 #: src/routes/dashboard/applications/index.tsx
 msgid "Insights"
 msgstr "Tahlillar"
@@ -2777,6 +2893,10 @@ msgstr "Integratsiyalar"
 #: src/libs/resume/section.tsx
 msgid "Interests"
 msgstr "Qiziqishlar"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Internship"
+msgstr ""
 
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "Invalid AI provider configuration."
@@ -2864,6 +2984,10 @@ msgstr "john.doe@example.com"
 #: src/dialogs/resume/import.tsx
 msgid "JSON Resume"
 msgstr "JSON rezyume"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Junior"
+msgstr ""
 
 #: src/components/input/rich-input.tsx
 msgid "Justify Align"
@@ -3006,6 +3130,10 @@ msgstr "AI provayderini sozlashni tark etasizmi?"
 #: src/components/input/rich-input.tsx
 msgid "Left Align"
 msgstr "Chapga tekislash"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Legal"
+msgstr ""
 
 #: src/features/ats-checker/messages.ts
 msgid "Length is not a defect, and there is no universal one-page rule. Keep the pages that earn their place."
@@ -3165,6 +3293,10 @@ msgstr "Autentifikatorga kirish yoʻqoldimi?"
 msgid "Low impact"
 msgstr "Past ta'sir"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Magenta accent"
+msgstr ""
+
 #. Layout editor column label for the primary content area
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
 msgid "Main"
@@ -3214,6 +3346,10 @@ msgstr "Vertikal chegarasi"
 msgid "Mark rejected"
 msgstr "Rad etildi deb belgilash"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Marketing"
+msgstr ""
+
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Match scoring failed."
 msgstr "Moslikni baholash amalga oshmadi."
@@ -3228,6 +3364,10 @@ msgstr "Oʻrta ta'sir"
 msgid "Microsoft Word"
 msgstr "Microsoft Word"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Minimal"
+msgstr ""
+
 #: src/routes/agent/-components/resume-pane.tsx
 msgid "Missing working resume"
 msgstr "Ishchi rezyume yo'q"
@@ -3239,6 +3379,10 @@ msgstr "Mistral AI"
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "Model"
 msgstr "Model"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Modern"
+msgstr ""
 
 #: src/features/ats-checker/messages.ts
 msgid "More than one email address appears."
@@ -3299,6 +3443,10 @@ msgstr "Ko‘p tilli"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/custom-fields.tsx
 msgid "Must start with https://"
 msgstr "https:// bilan boshlanishi kerak."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Muted sidebar"
+msgstr ""
 
 #. Label for full name input on registration form
 #: src/dialogs/api-key/create.tsx
@@ -3407,6 +3555,10 @@ msgstr "AI provayderidan hech qanday ma'lumot qaytarilmadi."
 msgid "No dates were found."
 msgstr "Sanalar topilmadi."
 
+#: src/dialogs/resume/template/data.ts
+msgid "No decoration"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 msgid "No education section was found."
 msgstr "Ta'lim boʻlimi topilmadi."
@@ -3491,6 +3643,10 @@ msgstr "Hali hech qanday mavzu yo'q."
 #: src/features/ats-checker/messages.ts
 msgid "No work-experience section was found."
 msgstr "Ish tajribasi boʻlimi topilmadi."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Nonprofit"
+msgstr ""
 
 #: src/libs/locale.ts
 msgid "Norwegian"
@@ -3640,6 +3796,10 @@ msgstr "Ochiq marshrutizator"
 #: src/routes/_home/-sections/footer.tsx
 msgid "opens in new tab"
 msgstr "yangi tabda ochiladi"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Operations"
+msgstr ""
 
 #: src/routes/agent/-components/patch-approval-card.tsx
 msgid "Optional note for the agent"
@@ -3890,6 +4050,10 @@ msgstr "PDF faylingiz yaratilguncha kuting…"
 msgid "Polish"
 msgstr "Polyak tili"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Polished"
+msgstr ""
+
 #. Preset button for setting picture aspect ratio to portrait orientation
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Portrait"
@@ -3963,6 +4127,10 @@ msgstr "Asosiy rang"
 #: src/features/ats-checker/messages.ts
 msgid "Print or export the form to a flat PDF before sending it."
 msgstr "Yuborishdan oldin shaklni tekis PDF sifatida chop eting yoki eksport qiling."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Professional"
+msgstr ""
 
 #: src/dialogs/resume/sections/skill.tsx
 msgid "Proficiency"
@@ -4633,6 +4801,10 @@ msgstr "PDF faylingizdan allaqachon ajratib olingan matnni quyida tanlagan AI pr
 msgid "Sends the text already extracted from your PDF, plus the job description you pasted, to the AI provider you choose below. The PDF file itself is never uploaded."
 msgstr "PDF faylingizdan allaqachon ajratib olingan matnni va siz joylashtirgan ish tavsifini quyida tanlagan AI provayderga yuboradi. PDF faylning oʻzi hech qachon yuklab yuborilmaydi."
 
+#: src/dialogs/resume/template/data.ts
+msgid "Senior"
+msgstr ""
+
 #: src/components/input/rich-input.tsx
 msgid "Separator"
 msgstr "Ajratgich"
@@ -4752,6 +4924,7 @@ msgid "Showing {0} of {1}"
 msgstr "{1} tadan {0} tasi ko'rsatilmoqda"
 
 #. Layout editor column label for the secondary sidebar area
+#: src/dialogs/resume/template/data.ts
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
 msgid "Sidebar"
 msgstr "Yon panel"
@@ -4810,6 +4983,14 @@ msgid "Signing up..."
 msgstr "Roʻyxatdan oʻtish jarayoni..."
 
 #: src/dialogs/resume/template/data.ts
+msgid "Simple"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
 msgid "Single-column with a magenta left border accent; compact and efficient for entry-level or internship applications."
 msgstr "Magenta rangli chap chegarasi aksenti bilan bir ustunli; ixcham va samarali, boshlang'ich daraja yoki amaliyot uchun arizalarga mos."
 
@@ -4861,6 +5042,10 @@ msgstr "Sloven"
 #: src/dialogs/resume/index.tsx
 msgid "Slug"
 msgstr "Slug"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Soft accent"
+msgstr ""
 
 #: src/libs/resume/ats.ts
 msgid "Some application systems require one before you can submit."
@@ -5039,6 +5224,10 @@ msgstr "Rezyumeni ismingiz alohida qatorda boʻlgan holda boshlang."
 msgid "Start Thread"
 msgstr "Mavzuni boshlash"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Startup"
+msgstr ""
+
 #: src/libs/resume/section.tsx
 msgid "Statistics"
 msgstr "Statistika"
@@ -5101,6 +5290,10 @@ msgstr "Reactive Resume'ni qoʻllab-quvvatlang"
 msgid "Support the app by doing what you can!"
 msgstr "Ilovani imkon qadar qoʻllab-quvvatlang!"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Sustainability"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 #: src/libs/resume/ats.ts
 msgid "Swap the start and end dates."
@@ -5161,6 +5354,18 @@ msgstr "Moslash amalga oshmadi."
 msgid "Tamil"
 msgstr "Tamil tili"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Tech"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Technical"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Technical PM"
+msgstr ""
+
 #: src/libs/locale.ts
 msgid "Telugu"
 msgstr "Telugu tili"
@@ -5209,6 +5414,10 @@ msgstr "Matn bir vaqtning oʻzida bitta belgidan yozilgan."
 #: src/features/ats-checker/messages.ts
 msgid "Text sits in the header or footer area."
 msgstr "Matn sarlavha yoki pastki qism hududida joylashgan."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Text-dense"
+msgstr ""
 
 #: src/libs/locale.ts
 msgid "Thai"
@@ -5745,6 +5954,10 @@ msgstr "Birinchi arizangizni kuzating"
 msgid "Track your resume's views and downloads"
 msgstr "Rezyumingizga koʻrilishlar va yuklab olishlarni kuzatib boring"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Traditional"
+msgstr ""
+
 #: src/routes/_home/-sections/footer.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Translations"
@@ -5765,6 +5978,10 @@ msgstr "Eksport qilishda ixtiyoriy ligaturalarni oʻchiring."
 #: src/routes/builder/$resumeId/-sidebar/right/sections/statistics.tsx
 msgid "Turn on public sharing to track how many times your resume has been viewed or downloaded. Only you can see your resume's statistics."
 msgstr "Rezyumeni qanchalik ko'p marta ko'rilganini yoki yuklab olinganini kuzatish uchun umumiy ulashishni yoqing. Rezyume statistikangizni faqat siz ko‘ra olasiz."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column"
+msgstr ""
 
 #: src/dialogs/resume/template/data.ts
 msgid "Two-column with a bold colored sidebar and skill bars; great for creative or tech roles where visual flair is welcome."
@@ -5851,6 +6068,10 @@ msgstr "Arxivdan chiqarish"
 #: src/components/input/rich-input.tsx
 msgid "Underline"
 msgstr "Tagiga chizilgan"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Understated"
+msgstr ""
 
 #: src/dialogs/resume/template/gallery.tsx
 #: src/routes/builder/$resumeId/-components/dock.tsx
@@ -6014,6 +6235,10 @@ msgstr "Rasm yuklanmoqda…"
 msgid "Uploading…"
 msgstr "Yuklanmoqda…"
 
+#: src/dialogs/resume/template/data.ts
+msgid "Uppercase headings"
+msgstr ""
+
 #. Form field label for the generated public resume link in sharing settings
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/sharing.tsx
@@ -6154,6 +6379,10 @@ msgstr "Parol tekshirilmoqda..."
 msgid "Verifying your email is required when resetting your password."
 msgstr "Parolingizni tiklashda emailingizni tasdiqlash talab qilinadi."
 
+#: src/dialogs/resume/template/data.ts
+msgid "Versatile"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-components/version-history.tsx
 msgid "Version history"
 msgstr "Versiya tarixi"
@@ -6173,6 +6402,10 @@ msgstr "Vyetnam tili"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/statistics.tsx
 msgid "Views"
 msgstr "Ko‘rishlar"
+
+#: src/dialogs/resume/template/data.ts
+msgid "Visual flair"
+msgstr ""
 
 #: src/dialogs/resume/sections/custom.tsx
 #: src/libs/resume/section-title.ts
@@ -6310,6 +6543,10 @@ msgstr "Ismingiz, elektron pochtangiz, telefoningiz va sanalaringiz buzilmasdan 
 #: src/features/ats-checker/messages.ts
 msgid "Whether your timeline can be reconstructed."
 msgstr "Vaqt jadvalingizni tiklab boʻladimi."
+
+#: src/dialogs/resume/template/data.ts
+msgid "Whitespace"
+msgstr ""
 
 #: src/features/ats-checker/messages.ts
 msgid "Words run together when the text is extracted."

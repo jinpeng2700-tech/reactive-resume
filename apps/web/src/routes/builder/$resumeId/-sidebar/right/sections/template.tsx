@@ -50,11 +50,15 @@ function TemplateSectionForm() {
 				</div>
 
 				<div className="flex flex-wrap gap-2.5">
-					{metadata.tags.map((tag) => (
-						<Badge key={tag} variant="secondary">
-							{tag}
-						</Badge>
-					))}
+					{metadata.tags.map((tag) => {
+						const translatedTag = i18n.t(tag);
+
+						return (
+							<Badge key={translatedTag} variant="secondary">
+								{translatedTag}
+							</Badge>
+						);
+					})}
 				</div>
 			</div>
 		</div>
