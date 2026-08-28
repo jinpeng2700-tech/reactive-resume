@@ -1,0 +1,10 @@
+[Unit]
+Description=Reactive Resume production image updater
+After=docker.service gost-tencent.service network-online.target
+Requires=docker.service gost-tencent.service
+
+[Service]
+Type=oneshot
+Environment=DOCKER_CONFIG=/etc/reactive-resume/secrets/docker
+EnvironmentFile=/etc/reactive-resume/secrets/reactive-resume.env
+ExecStart=/opt/reactive-resume/update.sh
