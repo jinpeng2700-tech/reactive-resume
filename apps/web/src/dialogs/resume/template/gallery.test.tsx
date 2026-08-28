@@ -1,11 +1,12 @@
 // @vitest-environment happy-dom
 
-import { fireEvent, render, screen } from "@testing-library/react";
+import { act, cleanup, fireEvent, render, screen } from "@testing-library/react";
 import { afterEach, beforeAll, describe, expect, it, vi } from "vitest";
 import { i18n } from "@lingui/core";
 import { I18nProvider } from "@lingui/react";
 import { Dialog } from "@reactive-resume/ui/components/dialog";
 import { useDialogStore } from "@/dialogs/store";
+import { getLocaleMessages } from "@/libs/locale";
 
 const updateResumeData = vi.hoisted(() => vi.fn());
 
@@ -23,6 +24,8 @@ beforeAll(() => {
 });
 
 afterEach(() => {
+	cleanup();
+	i18n.loadAndActivate({ locale: "en", messages: {} });
 	updateResumeData.mockReset();
 	useDialogStore.setState({ open: false, activeDialog: null, onBeforeClose: null });
 });
@@ -48,6 +51,14 @@ describe("TemplateGalleryDialog", () => {
 		// Each tile renders an <img alt={metadata.name}>. The data module lists 14 templates.
 		const images = screen.getAllByRole("img");
 		expect(images.length).toBeGreaterThanOrEqual(14);
+	});
+
+	it("renders translated template tags", async () => {
+		const { messages } = await getLocaleMessages("zh-CN");
+		await act(() => i18n.loadAndActivate({ locale: "zh-CN", messages }));
+		renderGallery();
+
+		expect(screen.getAllByText("双栏").length).toBeGreaterThan(0);
 	});
 
 	it("ring-highlights the currently-selected template tile (Ditto)", () => {

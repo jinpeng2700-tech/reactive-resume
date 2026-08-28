@@ -242,6 +242,10 @@ msgstr ""
 msgid "Absolutely! You can export your resume to PDF with a single click. The exported PDF maintains all your formatting and styling perfectly."
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Accent colors"
+msgstr ""
+
 #: src/routes/_home/-sections/features.tsx
 msgid "Access your resumes and data programmatically using the API."
 msgstr ""
@@ -728,6 +732,10 @@ msgstr ""
 msgid "Artificial Intelligence"
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Asian style"
+msgstr ""
+
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Ask anything about this resume"
 msgstr ""
@@ -748,6 +756,10 @@ msgstr ""
 #: src/routes/_home/ats-checker.tsx
 #: src/routes/dashboard/-components/sidebar.tsx
 msgid "ATS Checker"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "ATS friendly"
 msgstr ""
 
 #: src/features/applications/components/application-detail-sheet.tsx
@@ -909,11 +921,19 @@ msgstr ""
 msgid "Bullet List"
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Business analyst"
+msgstr ""
+
 #. Tagline shown in app footer/about area
 #: src/components/ui/copyright.tsx
 #: src/routes/_home/-sections/features.tsx
 #: src/routes/_home/-sections/prefooter.tsx
 msgid "By the community, for the community."
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Calm"
 msgstr ""
 
 #: src/routes/_home/-sections/faq.tsx
@@ -1063,6 +1083,14 @@ msgstr ""
 msgid "Circle"
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Clean"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Clean typography"
+msgstr ""
+
 #. Clear the highlight color
 #. Clear the text color
 #: src/components/input/rich-input.tsx
@@ -1082,8 +1110,16 @@ msgstr ""
 msgid "Click here to select a file to import"
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Client-facing"
+msgstr ""
+
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Close AI assistant"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "CN/JP/KR"
 msgstr ""
 
 #: src/features/settings/integrations/components/ai-section.tsx
@@ -1112,6 +1148,10 @@ msgstr ""
 
 #: src/routes/_home/-sections/footer.tsx
 msgid "Community"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Compact"
 msgstr ""
 
 #: src/dialogs/resume/sections/experience.tsx
@@ -1173,6 +1213,10 @@ msgstr ""
 msgid "Connection verified — provider is ready to use."
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Consulting"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 msgid "Contact details"
 msgstr ""
@@ -1184,6 +1228,10 @@ msgstr ""
 #: src/dialogs/resume/sections/cover-letter.tsx
 #: src/dialogs/resume/sections/summary-item.tsx
 msgid "Content"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Content creator"
 msgstr ""
 
 #: src/features/ats-checker/messages.ts
@@ -1270,6 +1318,10 @@ msgstr ""
 #: src/routes/builder/$resumeId/-components/dock.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/sharing.tsx
 msgid "Copy URL"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Corporate"
 msgstr ""
 
 #: src/libs/resume/ats.ts
@@ -1502,6 +1554,10 @@ msgstr ""
 msgid "Creating your resume..."
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Creative"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Crop picture"
 msgstr ""
@@ -1549,12 +1605,20 @@ msgstr ""
 msgid "Dark"
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Dark sidebar"
+msgstr ""
+
 #: src/features/command-palette/pages/preferences/theme.tsx
 msgid "Dark theme"
 msgstr ""
 
 #: src/routes/dashboard/-components/sidebar.tsx
 msgid "Dashboard"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Data science"
 msgstr ""
 
 #: src/routes/_home/-sections/features.tsx
@@ -1706,9 +1770,17 @@ msgstr ""
 msgid "Design"
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Designer"
+msgstr ""
+
 #. Label above the raw error text forwarded by the identity provider
 #: src/features/auth/pages/error.tsx
 msgid "Details from the provider:"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Developer"
 msgstr ""
 
 #. Destructive action button to turn off two-factor authentication
@@ -1849,6 +1921,10 @@ msgstr ""
 msgid "Earlier versions are kept; the builder's undo history is reset."
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Earthy"
+msgstr ""
+
 #: src/components/input/chip-input.tsx
 #: src/features/applications/components/application-actions-menu.tsx
 #: src/features/applications/components/application-detail-sheet.tsx
@@ -1915,10 +1991,18 @@ msgstr ""
 msgid "Editing keyword..."
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Editorial"
+msgstr ""
+
 #: src/dialogs/resume/sections/custom.tsx
 #: src/libs/resume/section-title.ts
 #: src/libs/resume/section.tsx
 msgid "Education"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Efficient"
 msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
@@ -2007,6 +2091,14 @@ msgstr ""
 msgid "Enter your password to disable two-factor authentication. Your account will be less secure without 2FA enabled."
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Enterprise"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Entry level"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-sidebar/right/sections/ats-check.tsx
 msgid "Error"
 msgstr ""
@@ -2021,6 +2113,10 @@ msgstr ""
 
 #: src/routes/_home/-sections/features.tsx
 msgid "Everything you need to create, customize, and share professional resumes. Built with privacy in mind, powered by open source, and completely free forever."
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Executive"
 msgstr ""
 
 #: src/features/resume/stylesheet/toolbar.tsx
@@ -2292,6 +2388,10 @@ msgstr ""
 msgid "Filter by tags"
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Finance"
+msgstr ""
+
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Find weak bullets and rewrite them with stronger outcomes, numbers, scope, and sharper verbs."
 msgstr ""
@@ -2499,6 +2599,10 @@ msgstr ""
 msgid "Grid"
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Grid layout"
+msgstr ""
+
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "Groq"
 msgstr ""
@@ -2539,6 +2643,10 @@ msgstr ""
 #: src/features/ats-checker/parse-preview.tsx
 #: src/routes/builder/$resumeId/-sidebar/left/sections/basics.tsx
 msgid "Headline"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Healthcare"
 msgstr ""
 
 #: src/libs/locale.ts
@@ -2637,6 +2745,10 @@ msgstr ""
 
 #: src/routes/_home/-sections/faq.tsx
 msgid "How is my data protected?"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "HR"
 msgstr ""
 
 #: src/features/settings/integrations/components/ai-section.tsx
@@ -2747,6 +2859,10 @@ msgstr ""
 msgid "Inline Code"
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Inline header"
+msgstr ""
+
 #: src/routes/dashboard/applications/index.tsx
 msgid "Insights"
 msgstr ""
@@ -2771,6 +2887,10 @@ msgstr ""
 #: src/libs/resume/section-title.ts
 #: src/libs/resume/section.tsx
 msgid "Interests"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Internship"
 msgstr ""
 
 #: src/features/settings/integrations/components/ai-section.tsx
@@ -2858,6 +2978,10 @@ msgstr ""
 #. Import source option for standard JSON Resume format
 #: src/dialogs/resume/import.tsx
 msgid "JSON Resume"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Junior"
 msgstr ""
 
 #: src/components/input/rich-input.tsx
@@ -3000,6 +3124,10 @@ msgstr ""
 
 #: src/components/input/rich-input.tsx
 msgid "Left Align"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Legal"
 msgstr ""
 
 #: src/features/ats-checker/messages.ts
@@ -3160,6 +3288,10 @@ msgstr ""
 msgid "Low impact"
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Magenta accent"
+msgstr ""
+
 #. Layout editor column label for the primary content area
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
 msgid "Main"
@@ -3209,6 +3341,10 @@ msgstr ""
 msgid "Mark rejected"
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Marketing"
+msgstr ""
+
 #: src/features/applications/components/application-ai-copilot.tsx
 msgid "Match scoring failed."
 msgstr ""
@@ -3223,6 +3359,10 @@ msgstr ""
 msgid "Microsoft Word"
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Minimal"
+msgstr ""
+
 #: src/routes/agent/-components/resume-pane.tsx
 msgid "Missing working resume"
 msgstr ""
@@ -3233,6 +3373,10 @@ msgstr ""
 
 #: src/features/settings/integrations/components/ai-section.tsx
 msgid "Model"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Modern"
 msgstr ""
 
 #: src/features/ats-checker/messages.ts
@@ -3293,6 +3437,10 @@ msgstr ""
 #. Placeholder text for custom link URL field in resume builder
 #: src/routes/builder/$resumeId/-sidebar/left/sections/custom-fields.tsx
 msgid "Must start with https://"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Muted sidebar"
 msgstr ""
 
 #. Label for full name input on registration form
@@ -3402,6 +3550,10 @@ msgstr ""
 msgid "No dates were found."
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "No decoration"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 msgid "No education section was found."
 msgstr ""
@@ -3485,6 +3637,10 @@ msgstr ""
 
 #: src/features/ats-checker/messages.ts
 msgid "No work-experience section was found."
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Nonprofit"
 msgstr ""
 
 #: src/libs/locale.ts
@@ -3634,6 +3790,10 @@ msgstr ""
 #: src/routes/_home/-sections/donate.tsx
 #: src/routes/_home/-sections/footer.tsx
 msgid "opens in new tab"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Operations"
 msgstr ""
 
 #: src/routes/agent/-components/patch-approval-card.tsx
@@ -3885,6 +4045,10 @@ msgstr ""
 msgid "Polish"
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Polished"
+msgstr ""
+
 #. Preset button for setting picture aspect ratio to portrait orientation
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Portrait"
@@ -3957,6 +4121,10 @@ msgstr ""
 
 #: src/features/ats-checker/messages.ts
 msgid "Print or export the form to a flat PDF before sending it."
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Professional"
 msgstr ""
 
 #: src/dialogs/resume/sections/skill.tsx
@@ -4628,6 +4796,10 @@ msgstr ""
 msgid "Sends the text already extracted from your PDF, plus the job description you pasted, to the AI provider you choose below. The PDF file itself is never uploaded."
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Senior"
+msgstr ""
+
 #: src/components/input/rich-input.tsx
 msgid "Separator"
 msgstr ""
@@ -4747,6 +4919,7 @@ msgid "Showing {0} of {1}"
 msgstr ""
 
 #. Layout editor column label for the secondary sidebar area
+#: src/dialogs/resume/template/data.ts
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
 msgid "Sidebar"
 msgstr ""
@@ -4805,6 +4978,14 @@ msgid "Signing up..."
 msgstr ""
 
 #: src/dialogs/resume/template/data.ts
+msgid "Simple"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Single-column"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
 msgid "Single-column with a magenta left border accent; compact and efficient for entry-level or internship applications."
 msgstr ""
 
@@ -4855,6 +5036,10 @@ msgstr ""
 
 #: src/dialogs/resume/index.tsx
 msgid "Slug"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Soft accent"
 msgstr ""
 
 #: src/libs/resume/ats.ts
@@ -5034,6 +5219,10 @@ msgstr ""
 msgid "Start Thread"
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Startup"
+msgstr ""
+
 #: src/libs/resume/section.tsx
 msgid "Statistics"
 msgstr ""
@@ -5096,6 +5285,10 @@ msgstr ""
 msgid "Support the app by doing what you can!"
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Sustainability"
+msgstr ""
+
 #: src/features/ats-checker/messages.ts
 #: src/libs/resume/ats.ts
 msgid "Swap the start and end dates."
@@ -5156,6 +5349,18 @@ msgstr ""
 msgid "Tamil"
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Tech"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Technical"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Technical PM"
+msgstr ""
+
 #: src/libs/locale.ts
 msgid "Telugu"
 msgstr ""
@@ -5203,6 +5408,10 @@ msgstr ""
 
 #: src/features/ats-checker/messages.ts
 msgid "Text sits in the header or footer area."
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Text-dense"
 msgstr ""
 
 #: src/libs/locale.ts
@@ -5740,6 +5949,10 @@ msgstr ""
 msgid "Track your resume's views and downloads"
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Traditional"
+msgstr ""
+
 #: src/routes/_home/-sections/footer.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
 msgid "Translations"
@@ -5759,6 +5972,10 @@ msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/statistics.tsx
 msgid "Turn on public sharing to track how many times your resume has been viewed or downloaded. Only you can see your resume's statistics."
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Two-column"
 msgstr ""
 
 #: src/dialogs/resume/template/data.ts
@@ -5845,6 +6062,10 @@ msgstr ""
 
 #: src/components/input/rich-input.tsx
 msgid "Underline"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Understated"
 msgstr ""
 
 #: src/dialogs/resume/template/gallery.tsx
@@ -6009,6 +6230,10 @@ msgstr ""
 msgid "Uploading…"
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Uppercase headings"
+msgstr ""
+
 #. Form field label for the generated public resume link in sharing settings
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 #: src/routes/builder/$resumeId/-sidebar/right/sections/sharing.tsx
@@ -6149,6 +6374,10 @@ msgstr ""
 msgid "Verifying your email is required when resetting your password."
 msgstr ""
 
+#: src/dialogs/resume/template/data.ts
+msgid "Versatile"
+msgstr ""
+
 #: src/routes/builder/$resumeId/-components/version-history.tsx
 msgid "Version history"
 msgstr ""
@@ -6167,6 +6396,10 @@ msgstr ""
 
 #: src/routes/builder/$resumeId/-sidebar/right/sections/statistics.tsx
 msgid "Views"
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Visual flair"
 msgstr ""
 
 #: src/dialogs/resume/sections/custom.tsx
@@ -6304,6 +6537,10 @@ msgstr ""
 
 #: src/features/ats-checker/messages.ts
 msgid "Whether your timeline can be reconstructed."
+msgstr ""
+
+#: src/dialogs/resume/template/data.ts
+msgid "Whitespace"
 msgstr ""
 
 #: src/features/ats-checker/messages.ts

@@ -8,7 +8,7 @@ import { isRTL, localeSchema } from "@reactive-resume/utils/locale";
 export { isRTL };
 
 const storageKey = "locale";
-const defaultLocale: Locale = "en-US";
+const defaultLocale: Locale = "zh-CN";
 const messageLoaders = import.meta.glob<{ messages: Messages }>("../../locales/*.po");
 const relativeTimeDivisions: Array<{ amount: number; unit: Intl.RelativeTimeFormatUnit }> = [
 	{ amount: 31_536_000_000, unit: "year" },
@@ -97,10 +97,20 @@ export function formatRelativeTime(value: Date | string, formatter: Intl.Relativ
 		: formatter.format(0, "second");
 }
 
+const getSystemLocale = (): Locale => {
+	if (typeof navigator === "undefined") return defaultLocale;
+
+	const languages = navigator.languages;
+	const exactLocale = languages.find(isLocale);
+	if (exactLocale) return exactLocale;
+
+	const languageCodes = new Set(languages.map((language) => language.split("-")[0]?.toLowerCase()));
+	return localeSchema.options.find((locale) => languageCodes.has(locale.split("-")[0]?.toLowerCase())) ?? defaultLocale;
+};
+
 export const getLocale = () => {
 	const locale = Cookies.get(storageKey);
-	if (!locale || !isLocale(locale)) return defaultLocale;
-	return locale;
+	return locale && isLocale(locale) ? locale : getSystemLocale();
 };
 
 const loadMessages = async (locale: Locale) => {

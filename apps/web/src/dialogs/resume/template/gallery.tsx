@@ -1,6 +1,7 @@
 import type { Template } from "@reactive-resume/schema/templates";
 import type { DialogProps } from "@/dialogs/store";
 import type { TemplateMetadata } from "./data";
+import { i18n } from "@lingui/core";
 import { t } from "@lingui/core/macro";
 import { Trans } from "@lingui/react/macro";
 import { SlideshowIcon } from "@phosphor-icons/react";
@@ -108,6 +109,7 @@ function TemplateCard({ id, metadata, isActive, onSelect }: TemplateCardProps) {
 			{metadata.tags.length > 0 && (
 				<div className="flex flex-wrap justify-center gap-1 px-1 pb-1">
 					{metadata.tags
+						.map((tag) => i18n.t(tag))
 						.sort((a, b) => a.localeCompare(b))
 						.map((tag) => (
 							<Badge key={tag} variant="secondary" className="text-xs">
