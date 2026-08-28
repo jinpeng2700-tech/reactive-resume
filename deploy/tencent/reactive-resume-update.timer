@@ -1,9 +1,9 @@
 [Unit]
-Description=Check Reactive Resume production image every 10 minutes
+Description=Check Reactive Resume production image every 12 hours
 
 [Timer]
-OnBootSec=10min
-OnUnitActiveSec=10min
+OnBootSec=12h
+OnUnitActiveSec=12h
 Persistent=true
 
 [Install]
