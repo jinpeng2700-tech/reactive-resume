@@ -1,0 +1,7 @@
+[Unit]
+Description=Reactive Resume PostgreSQL backup
+
+[Service]
+Type=oneshot
+EnvironmentFile=/etc/reactive-resume/secrets/reactive-resume.env
+ExecStart=/opt/reactive-resume/backup.sh
