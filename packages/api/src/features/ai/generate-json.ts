@@ -1,9 +1,12 @@
+import type { Locale } from "@reactive-resume/utils/locale";
 import type { LanguageModel } from "ai";
 import type { z } from "zod";
 import { ORPCError } from "@orpc/client";
 import { generateText } from "ai";
+import { buildAiOutputLanguageInstruction } from "./language";
 
 export type GenerateJsonPrompt = {
+	locale?: Locale;
 	system?: string;
 	prompt: string;
 };
@@ -17,12 +20,15 @@ export type GenerateJsonPrompt = {
  */
 export async function generateJson<T>(
 	model: LanguageModel,
-	{ system, prompt }: GenerateJsonPrompt,
+	{ locale, system, prompt }: GenerateJsonPrompt,
 	schema: z.ZodType<T>,
 ): Promise<T> {
+	const systemPrompt = [system, locale ? buildAiOutputLanguageInstruction(locale) : undefined]
+		.filter(Boolean)
+		.join("\n\n");
 	const { text } = await generateText({
 		model,
-		...(system ? { system } : {}),
+		...(systemPrompt ? { system: systemPrompt } : {}),
 		messages: [{ role: "user", content: prompt }],
 	});
 

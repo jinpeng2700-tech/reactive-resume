@@ -85,6 +85,7 @@ type CreateThreadInput = {
 type SendMessageInput = {
 	userId: string;
 	threadId: string;
+	locale?: Locale;
 	message: UIMessage;
 	attachmentIds?: unknown;
 };
@@ -775,6 +776,7 @@ function createAgent(input: {
 	userId: string;
 	threadId: string;
 	resumeId: string;
+	locale: Locale;
 	draftRowId?: string;
 	requirePatchApproval?: boolean;
 	provider: {
@@ -855,7 +857,7 @@ function createAgent(input: {
 		},
 	});
 
-	const instructionsText = buildAgentInstructions({ hasProviderNativeSearch: "web_search" in tools });
+	const instructionsText = buildAgentInstructions({ hasProviderNativeSearch: "web_search" in tools, locale: input.locale });
 
 	return new ToolLoopAgent({
 		// Providers without native inputExamples support get them appended to the tool description.
@@ -1285,6 +1287,7 @@ export const agentService = {
 					userId: input.userId,
 					threadId: input.threadId,
 					resumeId: thread.workingResumeId,
+					locale: input.locale ?? "en-US",
 					...(draftRowId ? { draftRowId } : {}),
 					requirePatchApproval: thread.reviewPatches,
 					provider: {

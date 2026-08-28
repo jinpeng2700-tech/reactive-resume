@@ -1,3 +1,4 @@
+import type { Locale } from "@reactive-resume/utils/locale";
 import { z } from "zod";
 import { atsReviewSystemPrompt, atsReviewUserPromptTemplate } from "@reactive-resume/ai/prompts";
 import { generateJson } from "./generate-json";
@@ -72,6 +73,7 @@ export const atsReviewOutputSchema = z.object({
 export type AtsReviewOutput = z.infer<typeof atsReviewOutputSchema>;
 
 type AtsReviewServiceInput = AtsReviewInput & {
+	locale?: Locale;
 	provider: Parameters<typeof getModel>[0]["provider"];
 	model: string;
 	apiKey: string;
@@ -107,7 +109,11 @@ function buildUserPrompt(input: AtsReviewServiceInput): string {
 export function reviewResumeText(input: AtsReviewServiceInput): Promise<AtsReviewOutput> {
 	const model = getModel(input);
 
-	return generateJson(model, { system: atsReviewSystemPrompt, prompt: buildUserPrompt(input) }, atsReviewOutputSchema);
+	return generateJson(
+		model,
+		{ locale: input.locale ?? "en-US", system: atsReviewSystemPrompt, prompt: buildUserPrompt(input) },
+		atsReviewOutputSchema,
+	);
 }
 
 export const __testables = { buildUserPrompt, renderFindings };

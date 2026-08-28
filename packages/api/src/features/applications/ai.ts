@@ -5,6 +5,7 @@ import { generateId, slugify } from "@reactive-resume/utils/string";
 import { protectedProcedure } from "../../context";
 import { aiRequestRateLimit } from "../../middleware/rate-limit";
 import { generateJson } from "../ai/generate-json";
+import { buildAiOutputLanguageInstruction } from "../ai/language";
 import { getModel } from "../ai/service";
 import { aiProvidersService } from "../ai-providers/service";
 import { resumeService } from "../resume/service";
@@ -29,8 +30,15 @@ async function resolveModel(userId: string) {
 	});
 }
 
-async function generatePlainText(model: Awaited<ReturnType<typeof resolveModel>>, prompt: string) {
-	const { text } = await generateText({ model, messages: [{ role: "user", content: prompt }] });
+async function generatePlainText(
+	model: Awaited<ReturnType<typeof resolveModel>>,
+	prompt: string,
+	locale: Parameters<typeof buildAiOutputLanguageInstruction>[0],
+) {
+	const { text } = await generateText({
+		model,
+		messages: [{ role: "user", content: `${buildAiOutputLanguageInstruction(locale)}\n\n${prompt}` }],
+	});
 	return text.trim();
 }
 
@@ -108,6 +116,7 @@ export const aiRouter = {
 			const result = await generateJson(
 				model,
 				{
+					locale: context.locale,
 					prompt: `Compare this resume against the job description. Return ONLY JSON with keys score (integer 0-100 fit), gaps (array of short missing-qualification strings), strengths (array of short matching-strength strings).\n\nRESUME:\n${JSON.stringify(resume.data)}\n\nJOB DESCRIPTION:\n${application.jobDescription}`,
 				},
 				matchScoreOutput,
@@ -148,7 +157,7 @@ export const aiRouter = {
 					? `Write a concise, specific cover letter (250-350 words, no placeholders like [Name]) for this application, drawing on the resume. Return only the letter text.\n\n${context_}`
 					: `Write a short, polite follow-up message (80-120 words) to a recruiter checking in on this application. Warm but not pushy. Return only the message text.\n\n${context_}`;
 
-			return { text: await generatePlainText(model, prompt) };
+			return { text: await generatePlainText(model, prompt, context.locale) };
 		}),
 
 	// Create a tailored copy of the linked resume (job-specific summary) and link it to the application.
@@ -178,6 +187,7 @@ export const aiRouter = {
 			const { summary } = await generateJson(
 				model,
 				{
+					locale: context.locale,
 					prompt: `Rewrite this candidate's professional summary to target the job below. Return ONLY JSON { "summary": "<one to two sentence HTML paragraph, e.g. <p>…</p>>" }. Keep it truthful to the resume.\n\nRESUME:\n${JSON.stringify(resume.data)}\n\nJOB:\n${application.role} at ${application.company}\n${application.jobDescription}`,
 				},
 				z.object({ summary: z.string() }),
