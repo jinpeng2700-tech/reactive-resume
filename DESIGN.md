@@ -302,7 +302,7 @@ Triggered by `Cmd+K` / `Ctrl+K`. Built on `cmdk` with fuzzy search via `Fuse.js`
 
 ### Toast Notifications
 
-Powered by Sonner, positioned bottom-right with rich colors. Used for auto-save feedback, form submission status, error reporting, and donation prompts. Loading toasts are used during async operations (PDF generation, resume creation) with dismiss-on-complete.
+Powered by Sonner, positioned bottom-right with rich colors. Used for auto-save feedback, form submission status, and error reporting. Loading toasts are used during async operations (PDF generation, resume creation) with dismiss-on-complete.
 
 ### Drag and Drop
 

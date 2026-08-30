@@ -134,10 +134,6 @@ msgctxt "Home page FAQ section heading with each word visually separated into in
 msgid "<0>Frequently</0><1>Asked</1><2>Questions</2>"
 msgstr "<0>Συχνές</0><1>Ερωτήσεις</1><2>Χρηστών</2>"
 
-#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "<0>Thank you for using Reactive Resume! This app is a labor of love, created mostly in my spare time, with wonderful support from open-source contributors around the world.</0><1>If Reactive Resume has been helpful to you, and you'd like to help keep it free and open for everyone, please consider making a donation. Every little bit is appreciated!</1>"
-msgstr "<0>Σας ευχαριστώ που χρησιμοποιείτε το Reactive Resume! Αυτή η εφαρμογή είναι έργο αγάπης, δημιουργημένη κυρίως στον ελεύθερο χρόνο μου, με υπέροχη υποστήριξη από συνεισφέροντες ανοικτού κώδικα σε όλο τον κόσμο.</0><1>Εάν το Reactive Resume σας βοήθησε και θα θέλατε να συμβάλετε ώστε να παραμείνει δωρεάν και ανοικτό για όλους, σκεφτείτε να κάνετε μια δωρεά. Κάθε μικρή συμβολή εκτιμάται!</1>"
-
 #: src/dialogs/api-key/create.tsx
 msgid "1 month"
 msgstr "1 μήνας"
@@ -749,10 +745,6 @@ msgstr "Ρωτήστε οτιδήποτε σχετικά με αυτό το βι
 msgid "Aspect Ratio"
 msgstr "Αναλογία διαστάσεων"
 
-#: src/routes/_home/-sections/sponsors.tsx
-msgid "Atlas Cloud supports Reactive Resume as a project sponsor. If your company would like to sponsor the project, email <0>{sponsorshipEmail}</0>."
-msgstr "Το Atlas Cloud υποστηρίζει το Reactive Resume ως χορηγός έργου. Εάν η εταιρεία σας επιθυμεί να χρηματοδοτήσει το έργο, στείλτε email στο <0>{sponsorshipEmail}</0> ."
-
 #: src/libs/resume/section.tsx
 msgid "ATS Check"
 msgstr "Έλεγχος ATS"
@@ -1259,10 +1251,6 @@ msgstr "Συνεχίστε από εκεί που σταματήσατε"
 #: src/dialogs/resume/import.tsx
 msgid "Continue where you left off by importing an existing resume you created using Reactive Resume or any another resume builder. Supported formats include PDF, Microsoft Word, as well as JSON files from Reactive Resume."
 msgstr "Συνεχίστε από εκεί που σταματήσατε, εισάγοντας ένα υπάρχον βιογραφικό σημείωμα που δημιουργήσατε με το Reactive Resume ή οποιονδήποτε άλλο κατασκευαστή βιογραφικών σημειωμάτων. Οι υποστηριζόμενες μορφές περιλαμβάνουν PDF, Microsoft Word, καθώς και αρχεία JSON από το Reactive Resume."
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Contributions fund bug fixes, security updates, and continuous improvements to keep the app running smoothly."
-msgstr "Οι συνεισφορές χρηματοδοτούν διορθώσεις σφαλμάτων, ενημερώσεις ασφαλείας και συνεχείς βελτιώσεις ώστε η εφαρμογή να λειτουργεί ομαλά."
 
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Conversation copied."
@@ -1828,14 +1816,6 @@ msgstr "Απεσταλμένα έγγραφα"
 msgid "Don't have an account? <0/>"
 msgstr "Δεν έχετε λογαριασμό; <0/>"
 
-#: src/components/ui/donation-toast.tsx
-msgid "Donate"
-msgstr "Προσφέρω"
-
-#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "Donate to Reactive Resume"
-msgstr "Κάντε μία δωρεά στο Reactive Resume"
-
 #: src/routes/agent/-components/tool-part-card.tsx
 msgid "Done"
 msgstr "Ολοκληρώθηκε"
@@ -2111,10 +2091,6 @@ msgstr "Σφάλμα"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/ats-check.tsx
 msgid "Every check passed. Nothing here should stop a parser from reading your resume."
 msgstr "Κάθε έλεγχος πέρασε. Τίποτα εδώ δεν πρέπει να εμποδίζει έναν αναλυτή να διαβάσει το βιογραφικό σας."
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Every contribution, big or small, makes a huge difference to the project.<0/>Thank you for your support!"
-msgstr "Κάθε συνεισφορά, μικρή ή μεγάλη, κάνει τεράστια διαφορά στο έργο.<0/>Σας ευχαριστούμε για την υποστήριξή σας!"
 
 #: src/routes/_home/-sections/features.tsx
 msgid "Everything you need to create, customize, and share professional resumes. Built with privacy in mind, powered by open source, and completely free forever."
@@ -2612,10 +2588,6 @@ msgstr ""
 msgid "Groq"
 msgstr "Γκροκ"
 
-#: src/routes/_home/-sections/donate.tsx
-msgid "Grow the Team"
-msgstr "Ανάπτυξη της ομάδας"
-
 #: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
 msgctxt "Headings or Titles (H1, H2, H3, H4, H5, H6)"
 msgid "Heading"
@@ -2657,10 +2629,6 @@ msgstr ""
 #: src/libs/locale.ts
 msgid "Hebrew"
 msgstr "Εβραϊκά"
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Help me bring more experienced contributors on board, reducing the burden on a single maintainer and accelerating development."
-msgstr "Βοηθήστε με να φέρω στην ομάδα πιο έμπειρους συνεισφέροντες, μειώνοντας το βάρος από έναν μόνο συντηρητή και επιταχύνοντας την ανάπτυξη."
 
 #: src/features/settings/pages/preferences.tsx
 msgid "Help translate the app to your language"
@@ -3280,10 +3248,6 @@ msgstr "Αποσύνδεση"
 msgid "Long stretches are set in capitals."
 msgstr "Μεγάλα τμήματα κειμένου είναι γραμμένα με κεφαλαία."
 
-#: src/routes/_home/-sections/donate.tsx
-msgid "Long-term Sustainability"
-msgstr "Μακροπρόθεσμη βιωσιμότητα"
-
 #. Link to backup-code verification flow when authenticator app is unavailable
 #: src/features/auth/pages/verify-2fa.tsx
 msgid "Lost access to your authenticator?"
@@ -3709,10 +3673,6 @@ msgstr "Ολάμα Νέφος"
 msgid "One-Click Sign-In"
 msgstr "Σύνδεση με ένα κλικ"
 
-#: src/routes/_home/-sections/donate.tsx
-msgid "Ongoing Maintenance"
-msgstr "Συνεχής συντήρηση"
-
 #. Helper note explaining the keep-together limitation
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
 msgid "Only applies when the section fits on a single page."
@@ -3792,7 +3752,6 @@ msgid "OpenRouter"
 msgstr "OpenRouter"
 
 #: src/features/resume/stylesheet/editor.tsx
-#: src/routes/_home/-sections/donate.tsx
 #: src/routes/_home/-sections/footer.tsx
 msgid "opens in new tab"
 msgstr "ανοίγει σε νέα καρτέλα"
@@ -4030,10 +3989,6 @@ msgstr "Εισαγάγετε τον κωδικό πρόσβασης που μο�
 msgid "Please enter the URL you want to link to:"
 msgstr "Εισαγάγετε το URL στο οποίο θέλετε να γίνεται ο σύνδεσμος:"
 
-#: src/components/ui/donation-toast.tsx
-msgid "Please support the project"
-msgstr "Παρακαλώ υποστηρίξτε το έργο"
-
 #: src/features/applications/components/file-attachment-field.tsx
 msgid "Please upload a PDF file."
 msgstr "Ανεβάστε ένα αρχείο PDF."
@@ -4234,28 +4189,16 @@ msgid "Reactive Resume (JSON)"
 msgstr "Αντιδραστικό βιογραφικό σημείωμα (JSON)"
 
 #: src/routes/_home/-sections/prefooter.tsx
-msgid "Reactive Resume continues to grow thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills to make it better. We celebrate the coders who've enhanced its features on GitHub, the linguists whose translations on Crowdin have made it accessible to a broader audience, and the people who've donated to support its continued development."
-msgstr "Το Reactive Resume συνεχίζει να αναπτύσσεται χάρη στη ζωντανή του κοινότητα. Αυτό το έργο οφείλει την πρόοδό του σε πολλά άτομα που αφιέρωσαν τον χρόνο και τις δεξιότητές τους για να το βελτιώσουν. Γιορτάζουμε τους προγραμματιστές που βελτίωσαν τις λειτουργίες του στο GitHub, τους γλωσσολόγους των οποίων οι μεταφράσεις στο Crowdin το έκαναν προσβάσιμο σε ένα ευρύτερο κοινό και τους ανθρώπους που δώρισαν για να στηρίξουν τη συνεχιζόμενη ανάπτυξή του."
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Reactive Resume is a free and open-source project, built with love and maintained by me and a community of contributors. Your donations help keep the lights on and the code flowing."
-msgstr "Το Reactive Resume είναι ένα δωρεάν έργο ανοικτού κώδικα, φτιαγμένο με αγάπη και συντηρούμενο από εμένα και μια κοινότητα συνεισφερόντων. Οι δωρεές σας βοηθούν να παραμένουν τα φώτα αναμμένα και ο κώδικας να συνεχίζει να ρέει."
+msgid "Reactive Resume continues to grow thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills to make it better. We celebrate the coders who've enhanced its features on GitHub, the linguists whose translations on Crowdin have made it accessible to a broader audience."
+msgstr ""
 
 #: src/routes/_home/-sections/hero.tsx
 msgid "Reactive Resume is a free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume."
 msgstr "Το Reactive Resume είναι ένας δωρεάν κατασκευαστής βιογραφικών σημειωμάτων ανοικτού κώδικα που απλοποιεί τη διαδικασία δημιουργίας, ενημέρωσης και κοινοποίησης του βιογραφικού σας σημειώματος."
 
-#: src/components/ui/donation-toast.tsx
-msgid "Reactive Resume is free and open source. If it has helped you, please consider donating."
-msgstr "Το Reactive Resume είναι δωρεάν και ανοιχτού κώδικα. Αν σας έχει βοηθήσει, σκεφτείτε να κάνετε μια δωρεά."
-
 #: src/routes/_home/-sections/faq.tsx
 msgid "Reactive Resume is open-source, privacy-focused, and completely free. Unlike other resume builders, it doesn't show ads, track your data, or limit your features behind a paywall."
 msgstr "Το Reactive Resume είναι ανοικτού κώδικα, με έμφαση στο απόρρητο και εντελώς δωρεάν. Σε αντίθεση με άλλους κατασκευαστές βιογραφικών σημειωμάτων, δεν εμφανίζει διαφημίσεις, δεν παρακολουθεί τα δεδομένα σας και δεν περιορίζει τις λειτουργίες του πίσω από paywall."
-
-#: src/routes/_home/-sections/sponsors.tsx
-msgid "Reactive Resume stays free, open-source, and independent because companies choose to support the work behind it. Their sponsorship helps fund hosting, maintenance, and continued development for the community."
-msgstr "Το Reactive Resume παραμένει δωρεάν, ανοιχτού κώδικα και ανεξάρτητο, επειδή οι εταιρείες επιλέγουν να υποστηρίξουν το έργο που κρύβεται πίσω από αυτό. Η χορηγία τους βοηθά στη χρηματοδότηση της φιλοξενίας, της συντήρησης και της συνεχούς ανάπτυξης για την κοινότητα."
 
 #. App version label in footer; includes semantic version variable
 #: src/components/ui/copyright.tsx
@@ -5154,14 +5097,6 @@ msgstr "Ισπανικά"
 msgid "Spell the month, as in \"Mar 2022\"."
 msgstr "Γράψτε τον μήνα ολογράφως, όπως στο «Mar 2022»."
 
-#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "Sponsors"
-msgstr "Χορηγοί"
-
-#: src/routes/_home/-sections/footer.tsx
-msgid "Sponsorships"
-msgstr "Χορηγίες"
-
 #. Preset button for setting picture aspect ratio to square
 #: src/components/level/combobox.tsx
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
@@ -5281,14 +5216,6 @@ msgstr "Προτάσεις"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
 msgid "Summary"
 msgstr "Σύνοψη"
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Support Reactive Resume"
-msgstr "Υποστήριξη Reactive Resume"
-
-#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "Support the app by doing what you can!"
-msgstr "Υποστηρίξτε την εφαρμογή κάνοντας ό,τι μπορείτε!"
 
 #: src/dialogs/resume/template/data.ts
 msgid "Sustainability"
@@ -5422,10 +5349,6 @@ msgstr ""
 #: src/libs/locale.ts
 msgid "Thai"
 msgstr "Ταϊλανδικά"
-
-#: src/routes/_home/-sections/sponsors.tsx
-msgid "Thank you to our sponsors"
-msgstr "Ευχαριστούμε τους χορηγούς μας"
 
 #: src/features/ats-checker/tool.tsx
 msgid "That file could not be read as a PDF."
@@ -6787,10 +6710,6 @@ msgstr "Το βιογραφικό σας χρησιμοποιεί τα «εγώ�
 #: src/routes/builder/$resumeId/-sidebar/right/sections/sharing.tsx
 msgid "Your resume's public link is currently protected by a password. Share the password only with people you trust."
 msgstr "Ο δημόσιος σύνδεσμος του βιογραφικού σας σημειώματος προστατεύεται αυτή τη στιγμή με κωδικό πρόσβασης. Μοιραστείτε τον κωδικό μόνο με άτομα που εμπιστεύεστε."
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Your support ensures the project remains free and accessible for everyone, now and in the future."
-msgstr "Η υποστήριξή σας διασφαλίζει ότι το έργο θα παραμείνει δωρεάν και προσβάσιμο για όλους, τώρα και στο μέλλον."
 
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Zoom"

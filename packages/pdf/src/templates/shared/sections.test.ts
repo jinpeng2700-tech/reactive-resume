@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { describe, expect, it } from "vitest";
 
-const source = readFileSync(fileURLToPath(new URL("./sections.tsx", import.meta.url)), "utf8");
+const source = readFileSync(fileURLToPath(new URL("./sections.tsx", import.meta.url)), "utf8").replace(/\r\n/g, "\n");
 
 describe("ExperienceSection", () => {
 	it("does not hide the item position header when role progression is present", () => {

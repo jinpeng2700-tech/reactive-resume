@@ -134,10 +134,6 @@ msgctxt "Home page FAQ section heading with each word visually separated into in
 msgid "<0>Frequently</0><1>Asked</1><2>Questions</2>"
 msgstr "<0>常見</0><1>問</1><2>題</2>"
 
-#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "<0>Thank you for using Reactive Resume! This app is a labor of love, created mostly in my spare time, with wonderful support from open-source contributors around the world.</0><1>If Reactive Resume has been helpful to you, and you'd like to help keep it free and open for everyone, please consider making a donation. Every little bit is appreciated!</1>"
-msgstr "<0>感謝您使用 Reactive Resume！這個應用程式是我在閒暇時間創作的心血結晶，並且獲得來自世界各地開源貢獻者的熱情支持。</0><1>如果 Reactive Resume 對您有所幫助，而您也希望幫助它持續為所有人免費開放，請考慮捐款支持。每一份心意我們都非常感激！</1>"
-
 #: src/dialogs/api-key/create.tsx
 msgid "1 month"
 msgstr "1 個月"
@@ -749,10 +745,6 @@ msgstr "關於這份履歷，有什麼想問的嗎？"
 msgid "Aspect Ratio"
 msgstr "顯示比例"
 
-#: src/routes/_home/-sections/sponsors.tsx
-msgid "Atlas Cloud supports Reactive Resume as a project sponsor. If your company would like to sponsor the project, email <0>{sponsorshipEmail}</0>."
-msgstr "Atlas Cloud 以專案贊助商的身份支持 Reactive Resume 專案。如果貴公司有意贊助該項目，請發送電子郵件至 <0>{sponsorshipEmail}</0> 。"
-
 #: src/libs/resume/section.tsx
 msgid "ATS Check"
 msgstr "ATS檢查”"
@@ -1259,10 +1251,6 @@ msgstr "從上次中斷的地方繼續"
 #: src/dialogs/resume/import.tsx
 msgid "Continue where you left off by importing an existing resume you created using Reactive Resume or any another resume builder. Supported formats include PDF, Microsoft Word, as well as JSON files from Reactive Resume."
 msgstr "透過匯入您使用 Reactive Resume 或其他履歷建立工具建立的既有履歷，從上次中斷的地方繼續。支援的格式包括 PDF、Microsoft Word，以及來自 Reactive Resume 的 JSON 檔案。"
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Contributions fund bug fixes, security updates, and continuous improvements to keep the app running smoothly."
-msgstr "捐款將用於錯誤修正、安全性更新與持續改進，確保應用程式穩定運作。"
 
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Conversation copied."
@@ -1828,14 +1816,6 @@ msgstr "已送出的文件"
 msgid "Don't have an account? <0/>"
 msgstr "沒有帳戶？<0/>"
 
-#: src/components/ui/donation-toast.tsx
-msgid "Donate"
-msgstr "捐"
-
-#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "Donate to Reactive Resume"
-msgstr "捐助 Reactive Resume"
-
 #: src/routes/agent/-components/tool-part-card.tsx
 msgid "Done"
 msgstr "完成"
@@ -2111,10 +2091,6 @@ msgstr "錯誤"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/ats-check.tsx
 msgid "Every check passed. Nothing here should stop a parser from reading your resume."
 msgstr "每項檢查都通過了。這裡沒有任何東西可以阻止解析器閱讀你的履歷。 」"
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Every contribution, big or small, makes a huge difference to the project.<0/>Thank you for your support!"
-msgstr "每一筆捐款，不論大小，都能為此專案帶來巨大的幫助。<0/>感謝您的支持！"
 
 #: src/routes/_home/-sections/features.tsx
 msgid "Everything you need to create, customize, and share professional resumes. Built with privacy in mind, powered by open source, and completely free forever."
@@ -2612,10 +2588,6 @@ msgstr ""
 msgid "Groq"
 msgstr "格羅克"
 
-#: src/routes/_home/-sections/donate.tsx
-msgid "Grow the Team"
-msgstr "擴大團隊"
-
 #: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
 msgctxt "Headings or Titles (H1, H2, H3, H4, H5, H6)"
 msgid "Heading"
@@ -2657,10 +2629,6 @@ msgstr ""
 #: src/libs/locale.ts
 msgid "Hebrew"
 msgstr "希伯來語"
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Help me bring more experienced contributors on board, reducing the burden on a single maintainer and accelerating development."
-msgstr "協助我邀請更多有經驗的貢獻者加入，減輕單一維護者的負擔，加速開發進程。"
 
 #: src/features/settings/pages/preferences.tsx
 msgid "Help translate the app to your language"
@@ -3280,10 +3248,6 @@ msgstr "登出"
 msgid "Long stretches are set in capitals."
 msgstr "有大段文字使用了全大寫。"
 
-#: src/routes/_home/-sections/donate.tsx
-msgid "Long-term Sustainability"
-msgstr "長期永續發展"
-
 #. Link to backup-code verification flow when authenticator app is unavailable
 #: src/features/auth/pages/verify-2fa.tsx
 msgid "Lost access to your authenticator?"
@@ -3709,10 +3673,6 @@ msgstr "奧拉瑪雲"
 msgid "One-Click Sign-In"
 msgstr "一鍵登入"
 
-#: src/routes/_home/-sections/donate.tsx
-msgid "Ongoing Maintenance"
-msgstr "持續維護"
-
 #. Helper note explaining the keep-together limitation
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
 msgid "Only applies when the section fits on a single page."
@@ -3792,7 +3752,6 @@ msgid "OpenRouter"
 msgstr "OpenRouter"
 
 #: src/features/resume/stylesheet/editor.tsx
-#: src/routes/_home/-sections/donate.tsx
 #: src/routes/_home/-sections/footer.tsx
 msgid "opens in new tab"
 msgstr "在新分頁中開啟"
@@ -4030,10 +3989,6 @@ msgstr "請輸入履歷擁有者提供給您的密碼以繼續。"
 msgid "Please enter the URL you want to link to:"
 msgstr "請輸入您要連結的 URL："
 
-#: src/components/ui/donation-toast.tsx
-msgid "Please support the project"
-msgstr "請支持這個項目"
-
 #: src/features/applications/components/file-attachment-field.tsx
 msgid "Please upload a PDF file."
 msgstr "請上傳 PDF 檔案。"
@@ -4234,28 +4189,16 @@ msgid "Reactive Resume (JSON)"
 msgstr "反應式履歷 (JSON)"
 
 #: src/routes/_home/-sections/prefooter.tsx
-msgid "Reactive Resume continues to grow thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills to make it better. We celebrate the coders who've enhanced its features on GitHub, the linguists whose translations on Crowdin have made it accessible to a broader audience, and the people who've donated to support its continued development."
-msgstr "Reactive Resume 能持續成長，全仰賴充滿活力的社群支持。這個專案的進步歸功於許多投入時間與技能、讓它變得更好的貢獻者。我們向在 GitHub 上強化功能的程式設計師致敬，也感謝在 Crowdin 上進行翻譯，讓更多人能接觸 Reactive Resume 的語言貢獻者，以及所有透過捐款支持其持續開發的人們。"
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Reactive Resume is a free and open-source project, built with love and maintained by me and a community of contributors. Your donations help keep the lights on and the code flowing."
-msgstr "Reactive Resume 是一個免費且開放原始碼的專案，包含創作者與社群貢獻者的熱情與心力。您的捐款有助於維持服務營運與持續開發。"
+msgid "Reactive Resume continues to grow thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills to make it better. We celebrate the coders who've enhanced its features on GitHub, the linguists whose translations on Crowdin have made it accessible to a broader audience."
+msgstr ""
 
 #: src/routes/_home/-sections/hero.tsx
 msgid "Reactive Resume is a free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume."
 msgstr "Reactive Resume 是一個免費且開放原始碼的履歷建立工具，可簡化建立、更新及分享履歷的程序。"
 
-#: src/components/ui/donation-toast.tsx
-msgid "Reactive Resume is free and open source. If it has helped you, please consider donating."
-msgstr "Reactive Resume 是免費開源的。如果它對您有所幫助，請考慮捐贈。"
-
 #: src/routes/_home/-sections/faq.tsx
 msgid "Reactive Resume is open-source, privacy-focused, and completely free. Unlike other resume builders, it doesn't show ads, track your data, or limit your features behind a paywall."
 msgstr "Reactive Resume 是開放原始碼、重視隱私且完全免費的工具。與其他履歷建立工具不同，它不會顯示廣告、不追蹤您的資料，也不會把功能鎖在付費牆後面。"
-
-#: src/routes/_home/-sections/sponsors.tsx
-msgid "Reactive Resume stays free, open-source, and independent because companies choose to support the work behind it. Their sponsorship helps fund hosting, maintenance, and continued development for the community."
-msgstr "Reactive Resume之所以能保持免費、開放原始碼和獨立，是因為有公司選擇支持背後的開發工作。他們的贊助有助於資助網站的託管、維護和社區的持續發展。"
 
 #. App version label in footer; includes semantic version variable
 #: src/components/ui/copyright.tsx
@@ -5154,14 +5097,6 @@ msgstr "西班牙語"
 msgid "Spell the month, as in \"Mar 2022\"."
 msgstr "把月份拼寫出來，例如「2022 年 3 月」。"
 
-#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "Sponsors"
-msgstr "贊助者"
-
-#: src/routes/_home/-sections/footer.tsx
-msgid "Sponsorships"
-msgstr "贊助"
-
 #. Preset button for setting picture aspect ratio to square
 #: src/components/level/combobox.tsx
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
@@ -5281,14 +5216,6 @@ msgstr "建議"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
 msgid "Summary"
 msgstr "摘要"
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Support Reactive Resume"
-msgstr "支持 Reactive Resume"
-
-#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "Support the app by doing what you can!"
-msgstr "盡您所能支持此應用程式！"
 
 #: src/dialogs/resume/template/data.ts
 msgid "Sustainability"
@@ -5422,10 +5349,6 @@ msgstr ""
 #: src/libs/locale.ts
 msgid "Thai"
 msgstr "泰文"
-
-#: src/routes/_home/-sections/sponsors.tsx
-msgid "Thank you to our sponsors"
-msgstr "感謝我們的贊助商"
 
 #: src/features/ats-checker/tool.tsx
 msgid "That file could not be read as a PDF."
@@ -6787,10 +6710,6 @@ msgstr "您的履歷使用了「我」和「我的」這類詞。"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/sharing.tsx
 msgid "Your resume's public link is currently protected by a password. Share the password only with people you trust."
 msgstr "您的履歷公開連結目前已受密碼保護。請只將密碼提供給您信任的人。"
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Your support ensures the project remains free and accessible for everyone, now and in the future."
-msgstr "您的支持能確保此專案現在與未來都能持續免費、並讓所有人都能使用。"
 
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Zoom"
