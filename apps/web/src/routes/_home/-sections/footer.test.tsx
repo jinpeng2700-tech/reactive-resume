@@ -28,12 +28,13 @@ describe("Footer", () => {
 		expect(screen.getByText("Community")).toBeInTheDocument();
 	});
 
-	it("renders the documented resource links", () => {
+	it("does not render sponsorship links", () => {
 		const { container } = renderFooter();
 		const text = container.textContent ?? "";
-		for (const label of ["Documentation", "Sponsorships", "Source Code", "Changelog"]) {
+		for (const label of ["Documentation", "Source Code", "Changelog"]) {
 			expect(text, label).toContain(label);
 		}
+		expect(text).not.toContain("Sponsorships");
 	});
 
 	it("renders the documented community links", () => {

@@ -134,10 +134,6 @@ msgctxt "Home page FAQ section heading with each word visually separated into in
 msgid "<0>Frequently</0><1>Asked</1><2>Questions</2>"
 msgstr "<0>প্রায়ই</0><1>জিজ্ঞাসিত</1><2>প্রশ্ন</2>"
 
-#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "<0>Thank you for using Reactive Resume! This app is a labor of love, created mostly in my spare time, with wonderful support from open-source contributors around the world.</0><1>If Reactive Resume has been helpful to you, and you'd like to help keep it free and open for everyone, please consider making a donation. Every little bit is appreciated!</1>"
-msgstr "<0>Reactive Resume ব্যবহারের জন্য আপনাকে ধন্যবাদ! এই অ্যাপটি ভালোবাসা দিয়ে তৈরি, বেশির ভাগই আমার অবসর সময়ে, সারা বিশ্বের মুক্ত উৎস অবদানকারীদের অসাধারণ সহায়তায়।</0><1>যদি Reactive Resume আপনার কাজে লাগে এবং আপনি চান যে এটি সবার জন্য বিনামূল্যে ও উন্মুক্ত থাকুক, তাহলে অনুদান দেওয়ার কথা বিবেচনা করুন। অল্প হলেও প্রতিটি অবদানকে কৃতজ্ঞতার সঙ্গে গ্রহণ করা হয়!</1>"
-
 #: src/dialogs/api-key/create.tsx
 msgid "1 month"
 msgstr "১ মাস"
@@ -749,10 +745,6 @@ msgstr "এই জীবনবৃত্তান্ত সম্পর্কে 
 msgid "Aspect Ratio"
 msgstr "আকারের অনুপাত"
 
-#: src/routes/_home/-sections/sponsors.tsx
-msgid "Atlas Cloud supports Reactive Resume as a project sponsor. If your company would like to sponsor the project, email <0>{sponsorshipEmail}</0>."
-msgstr "অ্যাটলাস ক্লাউড প্রজেক্ট স্পনসর হিসেবে রিয়্যাক্টিভ রেজ্যুমেকে সমর্থন করে। আপনার কোম্পানি যদি প্রজেক্টটি স্পনসর করতে আগ্রহী হয়, তাহলে ইমেইল করুন <0>{sponsorshipEmail}</0> ."
-
 #: src/libs/resume/section.tsx
 msgid "ATS Check"
 msgstr "ATS চেক"
@@ -1259,10 +1251,6 @@ msgstr "যেখান থেকে থেমেছিলেন সেখান
 #: src/dialogs/resume/import.tsx
 msgid "Continue where you left off by importing an existing resume you created using Reactive Resume or any another resume builder. Supported formats include PDF, Microsoft Word, as well as JSON files from Reactive Resume."
 msgstr "Reactive Resume বা অন্য কোনো জীবনবৃত্তান্ত নির্মাতায় তৈরি করা বিদ্যমান জীবনবৃত্তান্ত ইমপোর্ট করে যেখানে থেমেছিলেন সেখান থেকেই চালিয়ে যান। সমর্থিত ফরম্যাটের মধ্যে রয়েছে PDF, Microsoft Word এবং Reactive Resume-এর JSON ফাইল।"
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Contributions fund bug fixes, security updates, and continuous improvements to keep the app running smoothly."
-msgstr "অবদানগুলো বাগ ফিক্স, সিকিউরিটি আপডেট এবং ধারাবাহিক উন্নয়নের জন্য অর্থায়ন করে, যাতে অ্যাপটি মসৃণভাবে চলতে থাকে।"
 
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Conversation copied."
@@ -1828,14 +1816,6 @@ msgstr "প্রেরিত নথি"
 msgid "Don't have an account? <0/>"
 msgstr "অ্যাকাউন্ট নেই? <0/>"
 
-#: src/components/ui/donation-toast.tsx
-msgid "Donate"
-msgstr "দান করুন"
-
-#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "Donate to Reactive Resume"
-msgstr "Reactive Resume-এ অনুদান দিন"
-
 #: src/routes/agent/-components/tool-part-card.tsx
 msgid "Done"
 msgstr "সম্পন্ন"
@@ -2111,10 +2091,6 @@ msgstr "ত্রুটি"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/ats-check.tsx
 msgid "Every check passed. Nothing here should stop a parser from reading your resume."
 msgstr "প্রতিটি চেক পাস হয়েছে। এখানে কোন কিছুই আপনার জীবনবৃত্তান্ত পড়া থেকে একজন পার্সারকে থামাতে হবে না।"
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Every contribution, big or small, makes a huge difference to the project.<0/>Thank you for your support!"
-msgstr "প্রতিটি অবদান, বড় বা ছোট, প্রজেক্টটিতে বিশাল পরিবর্তন আনে।<0/>আপনার সহায়তার জন্য ধন্যবাদ!"
 
 #: src/routes/_home/-sections/features.tsx
 msgid "Everything you need to create, customize, and share professional resumes. Built with privacy in mind, powered by open source, and completely free forever."
@@ -2612,10 +2588,6 @@ msgstr ""
 msgid "Groq"
 msgstr "গ্রোক"
 
-#: src/routes/_home/-sections/donate.tsx
-msgid "Grow the Team"
-msgstr "টিম বড় করুন"
-
 #: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
 msgctxt "Headings or Titles (H1, H2, H3, H4, H5, H6)"
 msgid "Heading"
@@ -2657,10 +2629,6 @@ msgstr ""
 #: src/libs/locale.ts
 msgid "Hebrew"
 msgstr "হিব্রু"
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Help me bring more experienced contributors on board, reducing the burden on a single maintainer and accelerating development."
-msgstr "আরও অভিজ্ঞ অবদানকারীদের যুক্ত করার মাধ্যমে আমার উপর একক রক্ষণাবেক্ষণকারীর চাপ কমাতে এবং উন্নয়নকে ত্বরান্বিত করতে আমাকে সাহায্য করুন।"
 
 #: src/features/settings/pages/preferences.tsx
 msgid "Help translate the app to your language"
@@ -3280,10 +3248,6 @@ msgstr "লগআউট"
 msgid "Long stretches are set in capitals."
 msgstr "দীর্ঘ অংশ বড় হাতের অক্ষরে লেখা আছে।"
 
-#: src/routes/_home/-sections/donate.tsx
-msgid "Long-term Sustainability"
-msgstr "দীর্ঘমেয়াদি স্থায়িত্ব"
-
 #. Link to backup-code verification flow when authenticator app is unavailable
 #: src/features/auth/pages/verify-2fa.tsx
 msgid "Lost access to your authenticator?"
@@ -3709,10 +3673,6 @@ msgstr "ওলামা ক্লাউড"
 msgid "One-Click Sign-In"
 msgstr "ওয়ান‑ক্লিক সাইন‑ইন"
 
-#: src/routes/_home/-sections/donate.tsx
-msgid "Ongoing Maintenance"
-msgstr "চলমান রক্ষণাবেক্ষণ"
-
 #. Helper note explaining the keep-together limitation
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
 msgid "Only applies when the section fits on a single page."
@@ -3792,7 +3752,6 @@ msgid "OpenRouter"
 msgstr "ওপেনরাউটার"
 
 #: src/features/resume/stylesheet/editor.tsx
-#: src/routes/_home/-sections/donate.tsx
 #: src/routes/_home/-sections/footer.tsx
 msgid "opens in new tab"
 msgstr "নতুন ট্যাবে খুলবে"
@@ -4030,10 +3989,6 @@ msgstr "অবিরত থাকতে জীবনবৃত্তান্ত�
 msgid "Please enter the URL you want to link to:"
 msgstr "যে URL‑এ লিংক করতে চান অনুগ্রহ করে সেটি লিখুন:"
 
-#: src/components/ui/donation-toast.tsx
-msgid "Please support the project"
-msgstr "প্রকল্পটি সমর্থন করুন।"
-
 #: src/features/applications/components/file-attachment-field.tsx
 msgid "Please upload a PDF file."
 msgstr "অনুগ্রহ করে একটি পিডিএফ ফাইল আপলোড করুন।"
@@ -4234,28 +4189,16 @@ msgid "Reactive Resume (JSON)"
 msgstr "প্রতিক্রিয়াশীল জীবনবৃত্তান্ত (JSON)"
 
 #: src/routes/_home/-sections/prefooter.tsx
-msgid "Reactive Resume continues to grow thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills to make it better. We celebrate the coders who've enhanced its features on GitHub, the linguists whose translations on Crowdin have made it accessible to a broader audience, and the people who've donated to support its continued development."
-msgstr "উদ্দীপ্ত কমিউনিটির কারণে Reactive Resume ক্রমাগত বেড়ে চলেছে। এই প্রজেক্টের অগ্রগতির পেছনে আছে অসংখ্য মানুষের শ্রম, যাঁরা একে আরও ভালো করতে তাঁদের সময় ও দক্ষতা উত্সর্গ করেছেন। আমরা উদযাপন করি সেই কোডারদের, যারা GitHub‑এ ফিচার বাড়িয়েছেন, সেই ভাষাতত্ত্ববিদদের, যাদের Crowdin‑এর অনুবাদ এই প্রজেক্টকে আরও বেশি মানুষের কাছে পৌঁছে দিয়েছে, আর সেইসব মানুষকে, যারা এর ধারাবাহিক উন্নয়নে সহায়তা করতে দান করেছেন।"
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Reactive Resume is a free and open-source project, built with love and maintained by me and a community of contributors. Your donations help keep the lights on and the code flowing."
-msgstr "Reactive Resume একটি বিনামূল্যের ও মুক্ত উৎস প্রজেক্ট, ভালোবাসা দিয়ে তৈরি এবং আমার ও একদল অবদানকারীর মাধ্যমে রক্ষণাবেক্ষণ করা হয়। আপনার অনুদান আলো জ্বেলে রাখে এবং কোড লেখার ধারাকে সচল রাখে।"
+msgid "Reactive Resume continues to grow thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills to make it better. We celebrate the coders who've enhanced its features on GitHub, the linguists whose translations on Crowdin have made it accessible to a broader audience."
+msgstr ""
 
 #: src/routes/_home/-sections/hero.tsx
 msgid "Reactive Resume is a free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume."
 msgstr "Reactive Resume একটি বিনামূল্যের এবং মুক্ত উৎস জীবনবৃত্তান্ত নির্মাতা, যা আপনার জীবনবৃত্তান্ত তৈরি, আপডেট ও শেয়ার করার প্রক্রিয়াকে সহজ করে।"
 
-#: src/components/ui/donation-toast.tsx
-msgid "Reactive Resume is free and open source. If it has helped you, please consider donating."
-msgstr "রিঅ্যাক্টিভ রেজ্যুমে বিনামূল্যে এবং ওপেন সোর্স। যদি এটি আপনাকে সাহায্য করে থাকে, তবে অনুগ্রহ করে অনুদান দেওয়ার কথা বিবেচনা করুন।"
-
 #: src/routes/_home/-sections/faq.tsx
 msgid "Reactive Resume is open-source, privacy-focused, and completely free. Unlike other resume builders, it doesn't show ads, track your data, or limit your features behind a paywall."
 msgstr "Reactive Resume মুক্ত উৎস, গোপনীয়তা-কেন্দ্রিক এবং সম্পূর্ণ বিনামূল্যে। অন্য জীবনবৃত্তান্ত নির্মাতাদের মতো এটি কোনো বিজ্ঞাপন দেখায় না, আপনার ডেটা ট্র্যাক করে না, বা ফিচারগুলো পেওয়ালের আড়ালে আটকে রাখে না।"
-
-#: src/routes/_home/-sections/sponsors.tsx
-msgid "Reactive Resume stays free, open-source, and independent because companies choose to support the work behind it. Their sponsorship helps fund hosting, maintenance, and continued development for the community."
-msgstr "রিয়্যাক্টিভ রেজ্যুমে বিনামূল্যে, ওপেন-সোর্স এবং স্বাধীন থাকে, কারণ বিভিন্ন কোম্পানি এর পেছনের কাজকে সমর্থন করে। তাদের পৃষ্ঠপোষকতা কমিউনিটির জন্য হোস্টিং, রক্ষণাবেক্ষণ এবং ধারাবাহিক উন্নয়নে অর্থায়ন করতে সাহায্য করে।"
 
 #. App version label in footer; includes semantic version variable
 #: src/components/ui/copyright.tsx
@@ -5154,14 +5097,6 @@ msgstr "স্প্যানিশ"
 msgid "Spell the month, as in \"Mar 2022\"."
 msgstr "মাসের নাম বানান করে লিখুন, যেমন \"Mar 2022\"।"
 
-#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "Sponsors"
-msgstr "স্পনসররা"
-
-#: src/routes/_home/-sections/footer.tsx
-msgid "Sponsorships"
-msgstr "স্পনসরশিপ"
-
 #. Preset button for setting picture aspect ratio to square
 #: src/components/level/combobox.tsx
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
@@ -5281,14 +5216,6 @@ msgstr "পরামর্শসমূহ"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
 msgid "Summary"
 msgstr "সারাংশ"
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Support Reactive Resume"
-msgstr "Reactive Resume‑কে সহায়তা করুন"
-
-#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "Support the app by doing what you can!"
-msgstr "যা পারেন তা করে অ্যাপটিকে সহায়তা করুন!"
 
 #: src/dialogs/resume/template/data.ts
 msgid "Sustainability"
@@ -5422,10 +5349,6 @@ msgstr ""
 #: src/libs/locale.ts
 msgid "Thai"
 msgstr "থাই"
-
-#: src/routes/_home/-sections/sponsors.tsx
-msgid "Thank you to our sponsors"
-msgstr "আমাদের পৃষ্ঠপোষকদের ধন্যবাদ।"
 
 #: src/features/ats-checker/tool.tsx
 msgid "That file could not be read as a PDF."
@@ -6787,10 +6710,6 @@ msgstr "আপনার জীবনবৃত্তান্তে \"I\" এব�
 #: src/routes/builder/$resumeId/-sidebar/right/sections/sharing.tsx
 msgid "Your resume's public link is currently protected by a password. Share the password only with people you trust."
 msgstr "আপনার জীবনবৃত্তান্তের সর্বজনীন লিঙ্ক বর্তমানে পাসওয়ার্ড দ্বারা সুরক্ষিত। শুধু যাদের আপনি বিশ্বাস করেন তাঁদের সঙ্গেই পাসওয়ার্ডটি শেয়ার করুন।"
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Your support ensures the project remains free and accessible for everyone, now and in the future."
-msgstr "আপনার সহায়তা নিশ্চিত করে যে এই প্রজেক্ট এখন এবং ভবিষ্যতেও সবার জন্য বিনামূল্যে ও সহজলভ্য থাকবে।"
 
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Zoom"

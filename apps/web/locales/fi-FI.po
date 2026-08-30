@@ -134,10 +134,6 @@ msgctxt "Home page FAQ section heading with each word visually separated into in
 msgid "<0>Frequently</0><1>Asked</1><2>Questions</2>"
 msgstr "<0>Usein</0><1>kysytyt</1><2>kysymykset</2>"
 
-#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "<0>Thank you for using Reactive Resume! This app is a labor of love, created mostly in my spare time, with wonderful support from open-source contributors around the world.</0><1>If Reactive Resume has been helpful to you, and you'd like to help keep it free and open for everyone, please consider making a donation. Every little bit is appreciated!</1>"
-msgstr "<0>Kiitos, että käytät Reactive Resumea! Tämä sovellus on rakkaudella tehty projekti, jota olen luonut pääasiassa vapaa-ajallani, upean tuen avulla avoimen lähdekoodin tekijöiltä ympäri maailmaa.</0><1>Jos Reactive Resume on ollut sinulle hyödyllinen ja haluat auttaa pitämään sen kaikille maksuttomana ja avoimena, harkitse lahjoituksen tekemistä. Jokainen pieni panos on arvokas!</1>"
-
 #: src/dialogs/api-key/create.tsx
 msgid "1 month"
 msgstr "1 kuukausi"
@@ -749,10 +745,6 @@ msgstr "Kysy mitä tahansa tästä ansioluettelosta"
 msgid "Aspect Ratio"
 msgstr "Kuvasuhde"
 
-#: src/routes/_home/-sections/sponsors.tsx
-msgid "Atlas Cloud supports Reactive Resume as a project sponsor. If your company would like to sponsor the project, email <0>{sponsorshipEmail}</0>."
-msgstr "Atlas Cloud tukee Reactive Resumea projektin sponsorina. Jos yrityksesi haluaa sponsoroida projektia, lähetä sähköpostia osoitteeseen <0>{sponsorshipEmail}</0> ."
-
 #: src/libs/resume/section.tsx
 msgid "ATS Check"
 msgstr "ATS-tarkastus"
@@ -1259,10 +1251,6 @@ msgstr "Jatka siitä, mihin jäit"
 #: src/dialogs/resume/import.tsx
 msgid "Continue where you left off by importing an existing resume you created using Reactive Resume or any another resume builder. Supported formats include PDF, Microsoft Word, as well as JSON files from Reactive Resume."
 msgstr "Jatka siitä, mihin jäit, tuomalla aiemmin laatimasi ansioluettelo, jonka loit Reactive Resumella tai jollakin muulla ansioluettelon laatijalla. Tuetut muodot ovat PDF, Microsoft Word sekä Reactive Resumen JSON-tiedostot."
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Contributions fund bug fixes, security updates, and continuous improvements to keep the app running smoothly."
-msgstr "Lahjoitukset rahoittavat ohjelmistovirheiden korjauksia, tietoturvapäivityksiä ja jatkuvaa kehitystä, jotta sovellus toimisi sujuvasti."
 
 #: src/routes/agent/-components/agent-chat.tsx
 msgid "Conversation copied."
@@ -1828,14 +1816,6 @@ msgstr "Lähetetyt asiakirjat"
 msgid "Don't have an account? <0/>"
 msgstr "Eikö sinulla ole tiliä? <0/>"
 
-#: src/components/ui/donation-toast.tsx
-msgid "Donate"
-msgstr "Lahjoittaa"
-
-#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "Donate to Reactive Resume"
-msgstr "Lahjoita Reactive Resumelle"
-
 #: src/routes/agent/-components/tool-part-card.tsx
 msgid "Done"
 msgstr "Valmis"
@@ -2111,10 +2091,6 @@ msgstr "Virhe"
 #: src/routes/builder/$resumeId/-sidebar/right/sections/ats-check.tsx
 msgid "Every check passed. Nothing here should stop a parser from reading your resume."
 msgstr "Jokainen tarkistus meni läpi. Mikään tässä ei saa estää jäsentäjää lukemasta ansioluetteloasi."
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Every contribution, big or small, makes a huge difference to the project.<0/>Thank you for your support!"
-msgstr "Jokainen panos, suuri tai pieni, vaikuttaa valtavasti projektiin.<0/>Kiitos tuestasi!"
 
 #: src/routes/_home/-sections/features.tsx
 msgid "Everything you need to create, customize, and share professional resumes. Built with privacy in mind, powered by open source, and completely free forever."
@@ -2612,10 +2588,6 @@ msgstr ""
 msgid "Groq"
 msgstr "Groq"
 
-#: src/routes/_home/-sections/donate.tsx
-msgid "Grow the Team"
-msgstr "Kasvata tiimiä"
-
 #: src/routes/builder/$resumeId/-sidebar/right/sections/typography.tsx
 msgctxt "Headings or Titles (H1, H2, H3, H4, H5, H6)"
 msgid "Heading"
@@ -2657,10 +2629,6 @@ msgstr ""
 #: src/libs/locale.ts
 msgid "Hebrew"
 msgstr "heprea"
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Help me bring more experienced contributors on board, reducing the burden on a single maintainer and accelerating development."
-msgstr "Auta minua tuomaan mukaan kokeneempia tekijöitä, vähentämään yhden ylläpitäjän taakkaa ja nopeuttamaan kehitystä."
 
 #: src/features/settings/pages/preferences.tsx
 msgid "Help translate the app to your language"
@@ -3280,10 +3248,6 @@ msgstr "Kirjaudu ulos"
 msgid "Long stretches are set in capitals."
 msgstr "Pitkiä jaksoja on kirjoitettu suuraakkosin."
 
-#: src/routes/_home/-sections/donate.tsx
-msgid "Long-term Sustainability"
-msgstr "Pitkäaikainen kestävyys"
-
 #. Link to backup-code verification flow when authenticator app is unavailable
 #: src/features/auth/pages/verify-2fa.tsx
 msgid "Lost access to your authenticator?"
@@ -3709,10 +3673,6 @@ msgstr "Ollama Cloud"
 msgid "One-Click Sign-In"
 msgstr "Yhden klikkauksen kirjautuminen"
 
-#: src/routes/_home/-sections/donate.tsx
-msgid "Ongoing Maintenance"
-msgstr "Jatkuva ylläpito"
-
 #. Helper note explaining the keep-together limitation
 #: src/routes/builder/$resumeId/-sidebar/right/sections/layout/pages.tsx
 msgid "Only applies when the section fits on a single page."
@@ -3792,7 +3752,6 @@ msgid "OpenRouter"
 msgstr "OpenRouter"
 
 #: src/features/resume/stylesheet/editor.tsx
-#: src/routes/_home/-sections/donate.tsx
 #: src/routes/_home/-sections/footer.tsx
 msgid "opens in new tab"
 msgstr "avautuu uuteen välilehteen"
@@ -4030,10 +3989,6 @@ msgstr "Syötä ansioluettelon omistajan jakama salasana jatkaaksesi."
 msgid "Please enter the URL you want to link to:"
 msgstr "Syötä linkitettävä URL-osoite:"
 
-#: src/components/ui/donation-toast.tsx
-msgid "Please support the project"
-msgstr "Tue projektia"
-
 #: src/features/applications/components/file-attachment-field.tsx
 msgid "Please upload a PDF file."
 msgstr "Lataa PDF-tiedosto."
@@ -4234,28 +4189,16 @@ msgid "Reactive Resume (JSON)"
 msgstr "Reaktiivinen ansioluettelo (JSON)"
 
 #: src/routes/_home/-sections/prefooter.tsx
-msgid "Reactive Resume continues to grow thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills to make it better. We celebrate the coders who've enhanced its features on GitHub, the linguists whose translations on Crowdin have made it accessible to a broader audience, and the people who've donated to support its continued development."
-msgstr "Reactive Resume kasvaa jatkuvasti elinvoimaisen yhteisönsä ansiosta. Projekti on edistynyt lukemattomien ihmisten ansiosta, jotka ovat käyttäneet aikaansa ja osaamistaan sen parantamiseen. Kiitämme koodareita, jotka ovat kehittäneet ominaisuuksia GitHubissa, kielentuntijoita, joiden käännökset Crowdinessa ovat tehneet sovelluksesta saavutettavamman, sekä lahjoittajia, jotka tukevat jatkuvaa kehitystä."
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Reactive Resume is a free and open-source project, built with love and maintained by me and a community of contributors. Your donations help keep the lights on and the code flowing."
-msgstr "Reactive Resume on ilmainen ja avoimen lähdekoodin projekti, joka on tehty rakkaudella ja jota ylläpidän yhdessä yhteisön kanssa. Lahjoituksesi auttavat pitämään valot päällä ja koodin liikkeessä."
+msgid "Reactive Resume continues to grow thanks to its vibrant community. This project owes its progress to numerous individuals who've dedicated their time and skills to make it better. We celebrate the coders who've enhanced its features on GitHub, the linguists whose translations on Crowdin have made it accessible to a broader audience."
+msgstr ""
 
 #: src/routes/_home/-sections/hero.tsx
 msgid "Reactive Resume is a free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume."
 msgstr "Reactive Resume on ilmainen ja avoimen lähdekoodin ansioluettelon laatija, joka helpottaa ansioluettelon luomista, päivittämistä ja jakamista."
 
-#: src/components/ui/donation-toast.tsx
-msgid "Reactive Resume is free and open source. If it has helped you, please consider donating."
-msgstr "Reactive Resume on ilmainen ja avoimen lähdekoodin työkalu. Jos siitä on ollut sinulle apua, harkitse lahjoittamista."
-
 #: src/routes/_home/-sections/faq.tsx
 msgid "Reactive Resume is open-source, privacy-focused, and completely free. Unlike other resume builders, it doesn't show ads, track your data, or limit your features behind a paywall."
 msgstr "Reactive Resume on avoimen lähdekoodin, yksityisyyteen keskittyvä ja täysin ilmainen. Toisin kuin monet muut ansioluettelon laatijat, se ei näytä mainoksia, seuraa tietojasi tai piilota ominaisuuksia maksumuurin taakse."
-
-#: src/routes/_home/-sections/sponsors.tsx
-msgid "Reactive Resume stays free, open-source, and independent because companies choose to support the work behind it. Their sponsorship helps fund hosting, maintenance, and continued development for the community."
-msgstr "Reactive CV pysyy ilmaisena, avoimen lähdekoodin ja itsenäisenä, koska yritykset haluavat tukea sen taustalla olevaa työtä. Heidän sponsorointinsa auttaa rahoittamaan yhteisön ylläpitoa, hostingia ja jatkuvaa kehitystä."
 
 #. App version label in footer; includes semantic version variable
 #: src/components/ui/copyright.tsx
@@ -5154,14 +5097,6 @@ msgstr "espanja"
 msgid "Spell the month, as in \"Mar 2022\"."
 msgstr "Kirjoita kuukausi sanoin, kuten \"Mar 2022\"."
 
-#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "Sponsors"
-msgstr "Sponsorit"
-
-#: src/routes/_home/-sections/footer.tsx
-msgid "Sponsorships"
-msgstr "Sponsorisopimukset"
-
 #. Preset button for setting picture aspect ratio to square
 #: src/components/level/combobox.tsx
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
@@ -5281,14 +5216,6 @@ msgstr "Ehdotukset"
 #: src/routes/builder/$resumeId/-sidebar/left/sections/custom.tsx
 msgid "Summary"
 msgstr "Yhteenveto"
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Support Reactive Resume"
-msgstr "Tue Reactive Resumea"
-
-#: src/routes/builder/$resumeId/-sidebar/right/sections/information.tsx
-msgid "Support the app by doing what you can!"
-msgstr "Tue sovellusta parhaasi mukaan!"
 
 #: src/dialogs/resume/template/data.ts
 msgid "Sustainability"
@@ -5422,10 +5349,6 @@ msgstr ""
 #: src/libs/locale.ts
 msgid "Thai"
 msgstr "thai"
-
-#: src/routes/_home/-sections/sponsors.tsx
-msgid "Thank you to our sponsors"
-msgstr "Kiitos sponsoreillemme"
 
 #: src/features/ats-checker/tool.tsx
 msgid "That file could not be read as a PDF."
@@ -6787,10 +6710,6 @@ msgstr "Ansioluettelossasi käytetään sanoja \"I\" ja \"my\"."
 #: src/routes/builder/$resumeId/-sidebar/right/sections/sharing.tsx
 msgid "Your resume's public link is currently protected by a password. Share the password only with people you trust."
 msgstr "Ansioluettelosi julkinen linkki on tällä hetkellä suojattu salasanalla. Jaa salasana vain ihmisten kanssa, joihin luotat."
-
-#: src/routes/_home/-sections/donate.tsx
-msgid "Your support ensures the project remains free and accessible for everyone, now and in the future."
-msgstr "Tukesi varmistaa, että projekti pysyy ilmaisena ja kaikkien saatavilla nyt ja tulevaisuudessa."
 
 #: src/routes/builder/$resumeId/-sidebar/left/sections/picture.tsx
 msgid "Zoom"
